@@ -9,6 +9,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;1,400&family=Lato:wght@400;600;700&family=Playfair+Display:wght@700;900&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
+  <link rel="icon" href="images/fiks-kitchen-logo.png" type="image/png">
 </head>
 <body>
 
@@ -16,22 +17,7 @@
   <nav class="nav" aria-label="Main navigation">
     <div class="nav-inner">
       <a href="#hero" class="nav-logo">
-        <svg viewBox="0 0 32 32" aria-hidden="true">
-          <defs>
-            <linearGradient id="potGrad" x1="0%" y1="0%" x2="100%" y2="100%">
-              <stop offset="0%" stop-color="#D4A017"/>
-              <stop offset="100%" stop-color="#F2C94C"/>
-            </linearGradient>
-          </defs>
-          <ellipse cx="16" cy="26" rx="12" ry="3" fill="#8B6914" opacity="0.4"/>
-          <path d="M6 14 Q6 8 16 6 Q26 8 26 14 L24 22 Q16 26 8 22 Z" fill="url(#potGrad)"/>
-          <rect x="14" y="2" width="4" height="6" rx="1" fill="#A89070"/>
-          <path d="M10 16 Q16 12 22 16" stroke="#8B1A1A" stroke-width="1.5" fill="none" opacity="0.6"/>
-          <circle cx="12" cy="18" r="1.5" fill="#8B1A1A"/>
-          <circle cx="16" cy="17" r="1.5" fill="#2D5016"/>
-          <circle cx="20" cy="18" r="1.5" fill="#D4A017"/>
-        </svg>
-        Fiks Kitchen
+        <img src="images/fiks-kitchen-logo.png" alt="Fiks Kitchen — African Catering Company" class="logo-img" width="160" height="160">
       </a>
       <button class="nav-toggle" aria-label="Toggle menu" aria-expanded="false">
         <span></span><span></span><span></span>
@@ -60,85 +46,6 @@
             <a href="#menu" class="btn btn-secondary">See Our Menu</a>
           </div>
         </div>
-        <div class="hero-visual reveal">
-          <div class="hero-glow"></div>
-          <svg viewBox="0 0 500 400" aria-label="African feast table illustration">
-            <defs>
-              <linearGradient id="woodGrad" x1="0%" y1="0%" x2="0%" y2="100%">
-                <stop offset="0%" stop-color="#5C4033"/><stop offset="100%" stop-color="#3E2723"/>
-              </linearGradient>
-              <pattern id="shweshwe" x="0" y="0" width="20" height="20" patternUnits="userSpaceOnUse">
-                <rect width="20" height="20" fill="#1A237E"/>
-                <circle cx="10" cy="10" r="4" fill="#fff" opacity="0.3"/>
-                <circle cx="0" cy="0" r="3" fill="#D4A017" opacity="0.4"/>
-                <circle cx="20" cy="20" r="3" fill="#D4A017" opacity="0.4"/>
-                <path d="M0 10 L20 10 M10 0 L10 20" stroke="#fff" stroke-width="0.5" opacity="0.2"/>
-              </pattern>
-              <radialGradient id="warmLight" cx="50%" cy="30%" r="60%">
-                <stop offset="0%" stop-color="#F2C94C" stop-opacity="0.3"/>
-                <stop offset="100%" stop-color="#0D0A06" stop-opacity="0"/>
-              </radialGradient>
-              <linearGradient id="stewGrad" x1="0%" y1="0%" x2="0%" y2="100%">
-                <stop offset="0%" stop-color="#8B1A1A"/><stop offset="100%" stop-color="#5C0F0F"/>
-              </linearGradient>
-            </defs>
-            <rect width="500" height="400" fill="url(#warmLight)"/>
-            <!-- Table -->
-            <rect x="30" y="280" width="440" height="18" rx="3" fill="url(#woodGrad)"/>
-            <rect x="50" y="250" width="400" height="35" fill="url(#shweshwe)" opacity="0.85"/>
-            <!-- Pot of stew -->
-            <ellipse cx="250" cy="230" rx="55" ry="8" fill="#2A1A0A" opacity="0.5"/>
-            <path d="M200 230 Q200 170 250 160 Q300 170 300 230 L290 240 Q250 250 210 240 Z" fill="#3E2723"/>
-            <path d="M205 225 Q205 175 250 168 Q295 175 295 225 L285 235 Q250 242 215 235 Z" fill="url(#stewGrad)"/>
-            <ellipse cx="250" cy="175" rx="42" ry="10" fill="#A0522D"/>
-            <rect x="245" y="148" width="10" height="18" rx="2" fill="#A89070"/>
-            <!-- Steam -->
-            <path class="steam-1" d="M235 155 Q230 130 235 115 Q240 130 235 155" fill="none" stroke="#F5EDD6" stroke-width="3" opacity="0.4"/>
-            <path class="steam-2" d="M250 150 Q245 125 250 108 Q255 125 250 150" fill="none" stroke="#F5EDD6" stroke-width="4" opacity="0.5"/>
-            <path class="steam-3" d="M265 155 Q270 128 265 112 Q260 128 265 155" fill="none" stroke="#F5EDD6" stroke-width="3" opacity="0.4"/>
-            <!-- Pap plate -->
-            <ellipse cx="130" cy="245" rx="35" ry="8" fill="#2A1A0A" opacity="0.4"/>
-            <ellipse cx="130" cy="240" rx="32" ry="10" fill="#E8D5A3"/>
-            <ellipse cx="130" cy="237" rx="28" ry="8" fill="#F5EDD6"/>
-            <!-- Braai meat -->
-            <ellipse cx="370" cy="245" rx="35" ry="8" fill="#2A1A0A" opacity="0.4"/>
-            <rect x="345" y="230" width="50" height="12" rx="3" fill="#6B3A2A"/>
-            <rect x="348" y="228" width="18" height="8" rx="2" fill="#8B4513"/>
-            <rect x="368" y="227" width="22" height="9" rx="2" fill="#A0522D"/>
-            <!-- Chakalaka bowl -->
-            <ellipse cx="180" cy="248" rx="22" ry="6" fill="#2A1A0A" opacity="0.4"/>
-            <ellipse cx="180" cy="243" rx="20" ry="7" fill="#D4A017"/>
-            <circle cx="175" cy="241" r="3" fill="#E74C3C"/>
-            <circle cx="183" cy="240" r="2.5" fill="#F39C12"/>
-            <circle cx="188" cy="243" r="2" fill="#2D5016"/>
-            <!-- Roasted chicken -->
-            <ellipse cx="320" cy="248" rx="28" ry="7" fill="#2A1A0A" opacity="0.4"/>
-            <ellipse cx="320" cy="242" rx="25" ry="12" fill="#C4956A"/>
-            <ellipse cx="315" cy="238" rx="8" ry="6" fill="#D4A574"/>
-            <path d="M305 240 Q300 235 298 230" stroke="#C4956A" stroke-width="3" fill="none"/>
-            <!-- Candles -->
-            <rect x="90" y="215" width="5" height="25" fill="#F5EDD6"/>
-            <ellipse class="candle-flame" cx="92.5" cy="212" rx="4" ry="6" fill="#F2C94C"/>
-            <rect x="405" y="218" width="5" height="22" fill="#F5EDD6"/>
-            <ellipse class="candle-flame" cx="407.5" cy="215" rx="4" ry="6" fill="#F2C94C"/>
-            <!-- Flowers -->
-            <circle cx="420" cy="235" r="6" fill="#8B1A1A"/>
-            <circle cx="415" cy="230" r="4" fill="#D4A017"/>
-            <circle cx="425" cy="230" r="4" fill="#2D5016"/>
-            <rect x="419" y="238" width="3" height="12" fill="#2D5016"/>
-            <circle cx="75" cy="232" r="5" fill="#D4A017"/>
-            <circle cx="70" cy="228" r="3" fill="#8B1A1A"/>
-            <rect x="73" y="235" width="2" height="10" fill="#2D5016"/>
-            <!-- Cutlery -->
-            <rect x="155" y="255" width="2" height="18" fill="#A89070"/>
-            <rect x="160" y="255" width="2" height="18" fill="#A89070"/>
-            <rect x="340" y="255" width="2" height="18" fill="#A89070"/>
-            <!-- Decorative elements -->
-            <circle cx="250" cy="195" r="3" fill="#F2C94C" opacity="0.6"/>
-            <circle cx="240" cy="190" r="2" fill="#F2C94C" opacity="0.4"/>
-            <circle cx="260" cy="192" r="2" fill="#F2C94C" opacity="0.4"/>
-          </svg>
-        </div>
       </div>
       <div class="kente-divider"></div>
     </section>
@@ -157,76 +64,7 @@
           </div>
         </div>
         <div class="about-visual reveal">
-          <svg viewBox="0 0 400 450" aria-label="African chef illustration">
-            <defs>
-              <linearGradient id="skinGrad" x1="0%" y1="0%" x2="100%" y2="100%">
-                <stop offset="0%" stop-color="#6B4423"/><stop offset="100%" stop-color="#4A2F15"/>
-              </linearGradient>
-              <linearGradient id="apronGrad" x1="0%" y1="0%" x2="0%" y2="100%">
-                <stop offset="0%" stop-color="#F5EDD6"/><stop offset="100%" stop-color="#D4C4A0"/>
-              </linearGradient>
-              <radialGradient id="kitchenGlow" cx="50%" cy="60%" r="50%">
-                <stop offset="0%" stop-color="#D4A017" stop-opacity="0.2"/>
-                <stop offset="100%" stop-color="#1A1208" stop-opacity="0"/>
-              </radialGradient>
-            </defs>
-            <rect width="400" height="450" fill="#1A1208"/>
-            <rect width="400" height="450" fill="url(#kitchenGlow)"/>
-            <!-- Kitchen background -->
-            <rect x="20" y="30" width="80" height="120" rx="4" fill="#2A1F12" stroke="#D4A017" stroke-width="1" opacity="0.5"/>
-            <rect x="30" y="45" width="25" height="35" rx="2" fill="#3E2723"/>
-            <rect x="60" y="45" width="25" height="35" rx="2" fill="#3E2723"/>
-            <rect x="30" y="90" width="25" height="35" rx="2" fill="#4A3728"/>
-            <rect x="60" y="90" width="25" height="35" rx="2" fill="#4A3728"/>
-            <!-- Shelf -->
-            <rect x="300" y="80" width="80" height="8" fill="#5C4033"/>
-            <ellipse cx="320" cy="72" rx="12" ry="15" fill="#8B1A1A" opacity="0.7"/>
-            <rect x="340" y="60" width="15" height="22" rx="2" fill="#D4A017" opacity="0.6"/>
-            <rect x="360" y="58" width="12" height="24" rx="2" fill="#2D5016" opacity="0.6"/>
-            <!-- Chef body -->
-            <ellipse cx="200" cy="400" rx="80" ry="15" fill="#0D0A06" opacity="0.5"/>
-            <path d="M155 280 Q155 220 200 210 Q245 220 245 280 L240 380 Q200 390 160 380 Z" fill="url(#apronGrad)"/>
-            <path d="M170 280 L200 295 L230 280" stroke="#D4A017" stroke-width="2" fill="none"/>
-            <!-- Arms -->
-            <path d="M155 260 Q130 280 120 310 Q125 320 140 315" fill="url(#skinGrad)"/>
-            <path d="M245 260 Q270 280 280 300 Q275 310 260 305" fill="url(#skinGrad)"/>
-            <!-- Head -->
-            <ellipse cx="200" cy="195" rx="45" ry="50" fill="url(#skinGrad)"/>
-            <!-- Hair -->
-            <path d="M158 175 Q155 140 200 130 Q245 140 242 175 Q240 160 200 155 Q160 160 158 175" fill="#1A0A00"/>
-            <path d="M165 170 Q200 145 235 170" fill="#1A0A00"/>
-            <!-- Headwrap -->
-            <path d="M160 165 Q200 140 240 165 Q245 175 240 185 Q200 195 160 185 Q155 175 160 165" fill="#8B1A1A"/>
-            <path d="M170 175 Q200 160 230 175" stroke="#D4A017" stroke-width="2" fill="none"/>
-            <!-- Face features -->
-            <ellipse cx="185" cy="195" rx="4" ry="3" fill="#2A1A0A"/>
-            <ellipse cx="215" cy="195" rx="4" ry="3" fill="#2A1A0A"/>
-            <path d="M190 215 Q200 225 210 215" stroke="#3E2723" stroke-width="2" fill="none"/>
-            <!-- Pot being stirred -->
-            <ellipse cx="130" cy="330" rx="35" ry="8" fill="#2A1A0A" opacity="0.5"/>
-            <path d="M100 330 Q100 290 130 285 Q160 290 160 330 L155 340 Q130 345 105 340 Z" fill="#3E2723"/>
-            <ellipse cx="130" cy="295" rx="28" ry="8" fill="#8B1A1A"/>
-            <rect x="125" y="275" width="10" height="15" rx="1" fill="#A89070"/>
-            <!-- Wooden spoon in hand -->
-            <rect x="115" y="290" width="4" height="40" rx="1" fill="#8B6914" transform="rotate(-20 117 310)"/>
-            <!-- Floating ingredients -->
-            <g class="float-1">
-              <path d="M310 150 Q315 140 320 150 Q315 160 310 150" fill="#E74C3C"/>
-              <path d="M312 155 L318 155" stroke="#2D5016" stroke-width="1"/>
-            </g>
-            <g class="float-2">
-              <ellipse cx="80" cy="200" rx="15" ry="8" fill="#2D5016" opacity="0.8"/>
-              <path d="M70 198 Q80 190 90 198" stroke="#1A5010" stroke-width="1" fill="none"/>
-            </g>
-            <g class="float-3">
-              <rect x="330" y="220" width="14" height="20" rx="3" fill="#D4A017" opacity="0.7"/>
-              <rect x="332" y="215" width="10" height="6" rx="1" fill="#A89070"/>
-            </g>
-            <!-- Steam from pot -->
-            <path class="steam-1" d="M120 280 Q115 260 120 245" fill="none" stroke="#F5EDD6" stroke-width="2" opacity="0.3"/>
-            <path class="steam-2" d="M130 278 Q125 258 130 242" fill="none" stroke="#F5EDD6" stroke-width="2.5" opacity="0.4"/>
-            <path class="steam-3" d="M140 280 Q145 260 140 245" fill="none" stroke="#F5EDD6" stroke-width="2" opacity="0.3"/>
-          </svg>
+          <img src="images/about-catering.png" alt="Professional catering buffet with smoked meats and fresh garnishes" class="site-photo" loading="lazy">
         </div>
       </div>
     </section>
@@ -244,41 +82,7 @@
           <article class="service-card reveal">
             <div class="kente-strip"></div>
             <div class="service-card-visual">
-              <svg viewBox="0 0 400 200" aria-hidden="true">
-                <defs>
-                  <linearGradient id="sunsetGrad" x1="0%" y1="100%" x2="0%" y2="0%">
-                    <stop offset="0%" stop-color="#1A1208"/><stop offset="100%" stop-color="#8B4513"/>
-                  </linearGradient>
-                </defs>
-                <rect width="400" height="200" fill="url(#sunsetGrad)"/>
-                <rect x="0" y="150" width="400" height="50" fill="#D4A017" opacity="0.3"/>
-                <!-- Table -->
-                <rect x="50" y="130" width="300" height="8" fill="#5C4033"/>
-                <rect x="60" y="120" width="280" height="12" fill="#8B1A1A" opacity="0.6"/>
-                <!-- Cake tiers -->
-                <rect x="170" y="85" width="60" height="15" rx="2" fill="#F5EDD6"/>
-                <rect x="175" y="70" width="50" height="15" rx="2" fill="#F5EDD6"/>
-                <rect x="180" y="58" width="40" height="12" rx="2" fill="#F5EDD6"/>
-                <circle cx="200" cy="55" r="5" fill="#D4A017"/>
-                <!-- Couple silhouettes -->
-                <ellipse cx="120" cy="105" rx="12" ry="18" fill="#2A1A0A"/>
-                <path d="M108 105 Q120 85 132 105" fill="#8B1A1A"/>
-                <ellipse cx="280" cy="105" rx="12" ry="18" fill="#2A1A0A"/>
-                <path d="M268 105 Q280 82 292 105" fill="#D4A017"/>
-                <!-- Cowrie shells -->
-                <ellipse cx="80" cy="125" rx="6" ry="4" fill="#F5EDD6" opacity="0.8"/>
-                <ellipse cx="320" cy="125" rx="6" ry="4" fill="#F5EDD6" opacity="0.8"/>
-                <ellipse cx="100" cy="128" rx="5" ry="3" fill="#F5EDD6" opacity="0.6"/>
-                <!-- Candles -->
-                <rect x="140" y="108" width="3" height="12" fill="#F5EDD6"/>
-                <ellipse cx="141.5" cy="106" rx="2" ry="3" fill="#F2C94C"/>
-                <rect x="260" y="108" width="3" height="12" fill="#F5EDD6"/>
-                <ellipse cx="261.5" cy="106" rx="2" ry="3" fill="#F2C94C"/>
-                <!-- Kente runner -->
-                <rect x="60" y="118" width="280" height="4" fill="#D4A017"/>
-                <rect x="60" y="122" width="280" height="2" fill="#8B1A1A"/>
-                <rect x="60" y="124" width="280" height="2" fill="#2D5016"/>
-              </svg>
+              <img src="images/service-wedding.png" alt="Elegant dessert and fruit buffet for wedding celebrations" class="site-photo" loading="lazy">
             </div>
             <div class="service-card-body">
               <h3>Weddings &amp; Ilobolo Feasts</h3>
@@ -291,39 +95,7 @@
           <article class="service-card reveal">
             <div class="kente-strip"></div>
             <div class="service-card-visual">
-              <svg viewBox="0 0 400 200" aria-hidden="true">
-                <defs>
-                  <linearGradient id="gradSky" x1="0%" y1="100%" x2="0%" y2="0%">
-                    <stop offset="0%" stop-color="#1A1208"/><stop offset="50%" stop-color="#8B4513"/><stop offset="100%" stop-color="#D4A017"/>
-                  </linearGradient>
-                </defs>
-                <rect width="400" height="200" fill="url(#gradSky)"/>
-                <!-- Confetti -->
-                <rect x="50" y="30" width="6" height="6" fill="#D4A017" transform="rotate(45 53 33)"/>
-                <rect x="150" y="50" width="5" height="5" fill="#8B1A1A" transform="rotate(30 152 52)"/>
-                <rect x="280" y="25" width="6" height="6" fill="#2D5016" transform="rotate(60 283 28)"/>
-                <rect x="350" y="60" width="5" height="5" fill="#F2C94C" transform="rotate(20 352 62)"/>
-                <circle cx="200" cy="40" r="3" fill="#D4A017"/>
-                <circle cx="320" cy="45" r="2" fill="#8B1A1A"/>
-                <!-- Mortarboard -->
-                <rect x="170" y="55" width="60" height="8" fill="#1A1208"/>
-                <polygon points="200,35 140,58 260,58" fill="#1A1208"/>
-                <line x1="260" y1="58" x2="275" y2="45" stroke="#F5EDD6" stroke-width="1"/>
-                <circle cx="275" cy="44" r="4" fill="#D4A017"/>
-                <!-- Plate under hat -->
-                <ellipse cx="200" cy="130" rx="50" ry="10" fill="#E8D5A3"/>
-                <ellipse cx="200" cy="125" rx="45" ry="8" fill="#F5EDD6"/>
-                <!-- Food on plate -->
-                <circle cx="185" cy="122" r="8" fill="#8B1A1A" opacity="0.7"/>
-                <circle cx="210" cy="120" r="6" fill="#2D5016" opacity="0.7"/>
-                <!-- Champagne glasses -->
-                <path d="M100 140 L95 160 L105 160 Z" fill="none" stroke="#F5EDD6" stroke-width="1.5"/>
-                <line x1="100" y1="160" x2="100" y2="170" stroke="#F5EDD6" stroke-width="1.5"/>
-                <ellipse cx="100" cy="138" rx="8" ry="3" fill="#F2C94C" opacity="0.5"/>
-                <path d="M300 140 L295 160 L305 160 Z" fill="none" stroke="#F5EDD6" stroke-width="1.5"/>
-                <line x1="300" y1="160" x2="300" y2="170" stroke="#F5EDD6" stroke-width="1.5"/>
-                <ellipse cx="300" cy="138" rx="8" ry="3" fill="#F2C94C" opacity="0.5"/>
-              </svg>
+              <img src="images/service-graduation.png" alt="Graduation celebration buffet with colourful dishes" class="site-photo" loading="lazy">
             </div>
             <div class="service-card-body">
               <h3>Graduations</h3>
@@ -336,37 +108,7 @@
           <article class="service-card reveal">
             <div class="kente-strip"></div>
             <div class="service-card-visual">
-              <svg viewBox="0 0 400 200" aria-hidden="true">
-                <rect width="400" height="200" fill="#0D0A06"/>
-                <!-- Night sky -->
-                <circle cx="350" cy="30" r="15" fill="#F2C94C" opacity="0.3"/>
-                <!-- String lights -->
-                <path d="M20 40 Q200 60 380 40" stroke="#A89070" stroke-width="1" fill="none"/>
-                <circle cx="60" cy="48" r="4" fill="#F2C94C" class="candle-flame"/>
-                <circle cx="120" cy="52" r="4" fill="#D4A017" class="candle-flame"/>
-                <circle cx="200" cy="55" r="4" fill="#F2C94C" class="candle-flame"/>
-                <circle cx="280" cy="52" r="4" fill="#D4A017" class="candle-flame"/>
-                <circle cx="340" cy="48" r="4" fill="#F2C94C" class="candle-flame"/>
-                <!-- Food table -->
-                <rect x="80" y="120" width="240" height="8" fill="#5C4033"/>
-                <rect x="90" y="110" width="220" height="12" fill="#8B6914" opacity="0.5"/>
-                <!-- Braai -->
-                <rect x="280" y="100" width="60" height="30" rx="3" fill="#3E2723"/>
-                <rect x="285" y="105" width="50" height="4" fill="#FF4500" opacity="0.6" class="braai-glow"/>
-                <rect x="290" y="112" width="20" height="6" rx="2" fill="#6B3A2A"/>
-                <rect x="315" y="111" width="18" height="7" rx="2" fill="#8B4513"/>
-                <!-- Smoke -->
-                <path class="steam-1" d="M310 100 Q305 80 310 65" fill="none" stroke="#A89070" stroke-width="2" opacity="0.3"/>
-                <path class="steam-2" d="M320 98 Q325 78 320 60" fill="none" stroke="#A89070" stroke-width="2" opacity="0.4"/>
-                <!-- Dancing silhouettes -->
-                <ellipse cx="60" cy="160" rx="8" ry="14" fill="#2A1A0A"/>
-                <path d="M52 160 Q60 140 68 155" fill="#2A1A0A"/>
-                <ellipse cx="100" cy="165" rx="7" ry="12" fill="#2A1A0A"/>
-                <path d="M93 165 Q100 148 107 160" fill="#2A1A0A"/>
-                <ellipse cx="340" cy="162" rx="8" ry="13" fill="#2A1A0A"/>
-                <path d="M332 162 Q340 142 348 158" fill="#2A1A0A"/>
-                <ellipse cx="370" cy="158" rx="7" ry="12" fill="#2A1A0A"/>
-              </svg>
+              <img src="images/service-parties.png" alt="Vibrant party buffet spread with warm lighting" class="site-photo" loading="lazy">
             </div>
             <div class="service-card-body">
               <h3>Parties &amp; Celebrations</h3>
@@ -379,41 +121,7 @@
           <article class="service-card reveal">
             <div class="kente-strip"></div>
             <div class="service-card-visual">
-              <svg viewBox="0 0 400 200" aria-hidden="true">
-                <rect width="400" height="200" fill="#1A1208"/>
-                <!-- Long conference table -->
-                <rect x="30" y="100" width="340" height="12" fill="#5C4033"/>
-                <rect x="40" y="90" width="320" height="12" fill="#F5EDD6" opacity="0.9"/>
-                <!-- African fabric runner -->
-                <rect x="40" y="92" width="320" height="4" fill="#D4A017"/>
-                <rect x="40" y="96" width="320" height="2" fill="#8B1A1A"/>
-                <rect x="40" y="98" width="320" height="2" fill="#2D5016"/>
-                <!-- Place settings -->
-                <ellipse cx="80" cy="88" rx="12" ry="4" fill="#E8E8E8"/>
-                <rect x="76" y="105" width="2" height="12" fill="#A89070"/>
-                <rect x="80" y="105" width="2" height="12" fill="#A89070"/>
-                <ellipse cx="140" cy="88" rx="12" ry="4" fill="#E8E8E8"/>
-                <rect x="136" y="105" width="2" height="12" fill="#A89070"/>
-                <ellipse cx="200" cy="88" rx="12" ry="4" fill="#E8E8E8"/>
-                <rect x="196" y="105" width="2" height="12" fill="#A89070"/>
-                <ellipse cx="260" cy="88" rx="12" ry="4" fill="#E8E8E8"/>
-                <rect x="256" y="105" width="2" height="12" fill="#A89070"/>
-                <ellipse cx="320" cy="88" rx="12" ry="4" fill="#E8E8E8"/>
-                <rect x="316" y="105" width="2" height="12" fill="#A89070"/>
-                <!-- Corporate stationery -->
-                <rect x="70" y="82" width="20" height="14" rx="1" fill="#F5EDD6"/>
-                <rect x="190" y="82" width="20" height="14" rx="1" fill="#F5EDD6"/>
-                <rect x="310" y="82" width="20" height="14" rx="1" fill="#F5EDD6"/>
-                <line x1="73" y1="86" x2="87" y2="86" stroke="#A89070" stroke-width="0.5"/>
-                <line x1="73" y1="89" x2="87" y2="89" stroke="#A89070" stroke-width="0.5"/>
-                <!-- Centerpiece -->
-                <rect x="185" y="75" width="30" height="8" rx="2" fill="#2D5016" opacity="0.6"/>
-                <circle cx="200" cy="72" r="6" fill="#D4A017"/>
-                <!-- Chairs -->
-                <rect x="70" y="115" width="20" height="25" rx="3" fill="#3E2723" opacity="0.5"/>
-                <rect x="190" y="115" width="20" height="25" rx="3" fill="#3E2723" opacity="0.5"/>
-                <rect x="310" y="115" width="20" height="25" rx="3" fill="#3E2723" opacity="0.5"/>
-              </svg>
+              <img src="images/service-corporate.png" alt="Professional corporate catering with chafing dishes" class="site-photo" loading="lazy">
             </div>
             <div class="service-card-body">
               <h3>Corporate &amp; Community Events</h3>
@@ -577,131 +285,35 @@
         </div>
         <div class="gallery-grid">
           <div class="gallery-item reveal">
-            <svg viewBox="0 0 300 400" preserveAspectRatio="xMidYMid slice">
-              <rect width="300" height="400" fill="#1A1208"/>
-              <rect x="20" y="280" width="260" height="10" fill="#5C4033"/>
-              <rect x="30" y="268" width="240" height="14" fill="#F5EDD6"/>
-              <rect x="120" y="230" width="60" height="40" fill="#2D5016" opacity="0.5"/>
-              <circle cx="150" cy="220" r="20" fill="#8B1A1A"/>
-              <circle cx="140" cy="215" r="8" fill="#D4A017"/>
-              <circle cx="160" cy="215" r="8" fill="#F5EDD6"/>
-              <rect x="60" y="250" width="4" height="20" fill="#D4A017"/>
-              <ellipse cx="62" cy="248" rx="5" ry="8" fill="#F2C94C" class="candle-flame"/>
-              <rect x="236" y="250" width="4" height="20" fill="#D4A017"/>
-              <ellipse cx="238" cy="248" rx="5" ry="8" fill="#F2C94C" class="candle-flame"/>
-              <rect x="80" y="255" width="140" height="3" fill="#D4A017"/>
-            </svg>
+            <img src="images/gallery-appetizers.png" alt="Gourmet shrimp cocktail appetizers beautifully plated" class="site-photo" loading="lazy">
             <div class="gallery-overlay"><span>Fiks Touch ✦</span></div>
           </div>
           <div class="gallery-item reveal">
-            <svg viewBox="0 0 300 220" preserveAspectRatio="xMidYMid slice">
-              <rect width="300" height="220" fill="#2A1A0A"/>
-              <defs><radialGradient id="stoveGlow"><stop offset="0%" stop-color="#FF4500" stop-opacity="0.4"/><stop offset="100%" stop-color="#0D0A06"/></radialGradient></defs>
-              <rect width="300" height="220" fill="url(#stoveGlow)"/>
-              <rect x="80" y="160" width="140" height="8" fill="#3E2723"/>
-              <ellipse cx="150" cy="130" rx="50" ry="10" fill="#2A1A0A"/>
-              <path d="M105 130 Q105 80 150 70 Q195 80 195 130 L185 145 Q150 155 115 145 Z" fill="#3E2723"/>
-              <ellipse cx="150" cy="85" rx="38" ry="10" fill="#8B1A1A"/>
-              <path class="steam-1" d="M135 75 Q130 50 135 35" fill="none" stroke="#F5EDD6" stroke-width="3" opacity="0.4"/>
-              <path class="steam-2" d="M150 70 Q145 45 150 28" fill="none" stroke="#F5EDD6" stroke-width="4" opacity="0.5"/>
-              <path class="steam-3" d="M165 75 Q170 50 165 35" fill="none" stroke="#F5EDD6" stroke-width="3" opacity="0.4"/>
-            </svg>
+            <img src="images/gallery-vegetables.png" alt="Fresh vegetable and pasta buffet line in chafing dishes" class="site-photo" loading="lazy">
             <div class="gallery-overlay"><span>Fiks Touch ✦</span></div>
           </div>
           <div class="gallery-item reveal">
-            <svg viewBox="0 0 300 220" preserveAspectRatio="xMidYMid slice">
-              <defs><linearGradient id="sunsetBraai" x1="0" y1="1" x2="0" y2="0"><stop offset="0%" stop-color="#1A1208"/><stop offset="100%" stop-color="#D4A017"/></linearGradient></defs>
-              <rect width="300" height="220" fill="url(#sunsetBraai)"/>
-              <rect x="100" y="140" width="100" height="40" rx="4" fill="#3E2723"/>
-              <rect x="110" y="150" width="80" height="6" fill="#FF4500" class="braai-glow"/>
-              <rect x="115" y="158" width="25" height="8" rx="2" fill="#6B3A2A"/>
-              <rect x="145" y="156" width="30" height="10" rx="2" fill="#8B4513"/>
-              <path class="steam-1" d="M140 140 Q135 120 140 100" fill="none" stroke="#A89070" stroke-width="2" opacity="0.4"/>
-              <path class="steam-2" d="M160 138 Q165 115 160 95" fill="none" stroke="#A89070" stroke-width="2" opacity="0.5"/>
-              <circle cx="250" cy="40" r="20" fill="#F2C94C" opacity="0.4"/>
-            </svg>
+            <img src="images/gallery-roast.png" alt="Slow-roasted meat buffet with professional presentation" class="site-photo" loading="lazy">
             <div class="gallery-overlay"><span>Fiks Touch ✦</span></div>
           </div>
           <div class="gallery-item reveal">
-            <svg viewBox="0 0 300 400" preserveAspectRatio="xMidYMid slice">
-              <rect width="300" height="400" fill="#0D0A06"/>
-              <ellipse cx="150" cy="220" rx="100" ry="25" fill="#1A1A1A"/>
-              <ellipse cx="150" cy="215" rx="95" ry="22" fill="#2A2A2A"/>
-              <ellipse cx="150" cy="200" rx="35" ry="20" fill="#F5EDD6"/>
-              <ellipse cx="100" cy="210" rx="30" ry="15" fill="#8B1A1A"/>
-              <ellipse cx="200" cy="208" rx="25" ry="12" fill="#E74C3C"/>
-              <circle cx="195" cy="205" r="4" fill="#F39C12"/>
-              <circle cx="205" cy="207" r="3" fill="#2D5016"/>
-            </svg>
+            <img src="images/gallery-african-trays.png" alt="Traditional African feast with fried chicken, jollof rice, plantains and morogo" class="site-photo" loading="lazy">
             <div class="gallery-overlay"><span>Fiks Touch ✦</span></div>
           </div>
           <div class="gallery-item reveal">
-            <svg viewBox="0 0 300 220" preserveAspectRatio="xMidYMid slice">
-              <rect width="300" height="220" fill="#1A1208"/>
-              <rect x="30" y="130" width="240" height="8" fill="#5C4033"/>
-              <rect x="40" y="118" width="220" height="14" fill="#F5EDD6" opacity="0.8"/>
-              <rect x="120" y="90" width="60" height="6" fill="#1A1208"/>
-              <polygon points="150,70 110,92 190,92" fill="#1A1208"/>
-              <circle cx="50" cy="125" r="12" fill="#8B1A1A" opacity="0.7"/>
-              <circle cx="100" cy="122" r="10" fill="#2D5016" opacity="0.7"/>
-              <circle cx="200" cy="123" r="11" fill="#D4A017" opacity="0.7"/>
-              <circle cx="250" cy="125" r="10" fill="#E74C3C" opacity="0.7"/>
-            </svg>
+            <img src="images/gallery-plated-meal.png" alt="Guest enjoying a plated African buffet meal at an event" class="site-photo" loading="lazy">
             <div class="gallery-overlay"><span>Fiks Touch ✦</span></div>
           </div>
           <div class="gallery-item reveal">
-            <svg viewBox="0 0 300 220" preserveAspectRatio="xMidYMid slice">
-              <rect width="300" height="220" fill="#1A1208"/>
-              <rect x="40" y="100" width="220" height="12" fill="#F5EDD6"/>
-              <rect x="40" y="102" width="220" height="4" fill="#D4A017"/>
-              <rect x="40" y="106" width="220" height="2" fill="#8B1A1A"/>
-              <rect x="40" y="108" width="220" height="2" fill="#2D5016"/>
-              <ellipse cx="80" cy="95" rx="14" ry="5" fill="#E8E8E8"/>
-              <ellipse cx="150" cy="95" rx="14" ry="5" fill="#E8E8E8"/>
-              <ellipse cx="220" cy="95" rx="14" ry="5" fill="#E8E8E8"/>
-              <rect x="100" y="85" width="3" height="12" fill="#F5EDD6"/>
-              <ellipse cx="101.5" cy="83" rx="2" ry="3" fill="#F2C94C" class="candle-flame"/>
-            </svg>
+            <img src="images/gallery-buffet-serving.png" alt="Live buffet service with plantains, potatoes and traditional sides" class="site-photo" loading="lazy">
             <div class="gallery-overlay"><span>Fiks Touch ✦</span></div>
           </div>
           <div class="gallery-item reveal">
-            <svg viewBox="0 0 300 220" preserveAspectRatio="xMidYMid slice">
-              <rect width="300" height="220" fill="#2A1A0A"/>
-              <defs><radialGradient id="ladleGlow"><stop offset="0%" stop-color="#D4A017" stop-opacity="0.2"/><stop offset="100%" stop-color="#0D0A06"/></radialGradient></defs>
-              <rect width="300" height="220" fill="url(#ladleGlow)"/>
-              <ellipse cx="150" cy="180" rx="40" ry="10" fill="#3E2723"/>
-              <ellipse cx="150" cy="175" rx="35" ry="8" fill="#8B1A1A"/>
-              <path d="M120 120 Q100 140 110 160" fill="#6B4423"/>
-              <path d="M180 120 Q200 140 190 160" fill="#6B4423"/>
-              <ellipse cx="150" cy="110" rx="30" ry="35" fill="#6B4423"/>
-              <path d="M145 90 Q150 130 155 165" stroke="#A89070" stroke-width="4" fill="none"/>
-              <ellipse cx="158" cy="165" rx="10" ry="4" fill="#8B1A1A"/>
-            </svg>
+            <img src="images/gallery-outdoor-african.png" alt="Outdoor African-themed catering setup with traditional decor" class="site-photo" loading="lazy">
             <div class="gallery-overlay"><span>Fiks Touch ✦</span></div>
           </div>
           <div class="gallery-item reveal">
-            <svg viewBox="0 0 300 220" preserveAspectRatio="xMidYMid slice">
-              <rect width="300" height="220" fill="#0D0A06"/>
-              <path d="M20 30 Q150 50 280 30" stroke="#A89070" stroke-width="1" fill="none"/>
-              <circle cx="50" cy="38" r="3" fill="#F2C94C" class="candle-flame"/>
-              <circle cx="120" cy="42" r="3" fill="#D4A017" class="candle-flame"/>
-              <circle cx="200" cy="42" r="3" fill="#F2C94C" class="candle-flame"/>
-              <ellipse cx="80" cy="150" rx="40" ry="8" fill="#5C4033"/>
-              <ellipse cx="220" cy="150" rx="40" ry="8" fill="#5C4033"/>
-              <ellipse cx="60" cy="170" rx="6" ry="10" fill="#2A1A0A"/>
-              <ellipse cx="200" cy="172" rx="6" ry="10" fill="#2A1A0A"/>
-            </svg>
-            <div class="gallery-overlay"><span>Fiks Touch ✦</span></div>
-          </div>
-          <div class="gallery-item reveal">
-            <svg viewBox="0 0 300 220" preserveAspectRatio="xMidYMid slice">
-              <rect width="300" height="220" fill="#1A1208"/>
-              <rect x="30" y="140" width="240" height="8" fill="#5C4033"/>
-              <rect x="40" y="128" width="220" height="14" fill="#F5EDD6" opacity="0.9"/>
-              <rect x="60" y="115" width="30" height="15" rx="2" fill="#C4956A"/>
-              <path d="M110 130 Q120 110 130 130" fill="#F39C12"/>
-              <rect x="155" y="112" width="25" height="18" rx="2" fill="#5C4033"/>
-              <rect x="195" y="110" width="25" height="18" rx="2" fill="#5C4033"/>
+            <img src="images/gallery-lavish-spread.png" alt="Lavish buffet spread with roasted meats and colourful sides" class="site-photo" loading="lazy">
             <div class="gallery-overlay"><span>Fiks Touch ✦</span></div>
           </div>
         </div>
@@ -879,25 +491,6 @@
             <div class="contact-hours">
               <p><strong>Operating Hours:</strong> Mon–Sat, 8am–6pm</p>
             </div>
-            <div class="contact-map">
-              <svg viewBox="0 0 320 180" aria-label="Pretoria skyline illustration">
-                <rect width="320" height="180" fill="#1A1208"/>
-                <rect x="0" y="140" width="320" height="40" fill="#2D5016" opacity="0.3"/>
-                <rect x="20" y="80" width="30" height="60" fill="#2A1F12"/>
-                <rect x="55" y="60" width="25" height="80" fill="#3E2723"/>
-                <rect x="85" y="70" width="35" height="70" fill="#2A1F12"/>
-                <rect x="125" y="40" width="40" height="100" fill="#3E2723"/>
-                <rect x="170" y="55" width="30" height="85" fill="#2A1F12"/>
-                <rect x="205" y="75" width="35" height="65" fill="#3E2723"/>
-                <rect x="245" y="50" width="28" height="90" fill="#2A1F12"/>
-                <rect x="278" y="65" width="32" height="75" fill="#3E2723"/>
-                <rect x="130" y="90" width="60" height="50" fill="#5C4033"/>
-                <ellipse cx="160" cy="90" rx="30" ry="15" fill="#D4A017" opacity="0.6"/>
-                <path d="M160 30 C145 30 135 42 135 55 C135 72 160 95 160 95 C160 95 185 72 185 55 C185 42 175 30 160 30 Z" fill="#D4A017"/>
-                <circle cx="160" cy="52" r="8" fill="#1A1208"/>
-                <circle cx="280" cy="25" r="2" fill="#F2C94C" opacity="0.6"/>
-              </svg>
-            </div>
           </div>
         </div>
       </div>
@@ -909,13 +502,8 @@
     <div class="container">
       <div class="footer-grid">
         <div class="footer-brand">
-          <a href="#hero" class="nav-logo">
-            <svg viewBox="0 0 32 32" aria-hidden="true">
-              <ellipse cx="16" cy="26" rx="12" ry="3" fill="#8B6914" opacity="0.4"/>
-              <path d="M6 14 Q6 8 16 6 Q26 8 26 14 L24 22 Q16 26 8 22 Z" fill="#D4A017"/>
-              <rect x="14" y="2" width="4" height="6" rx="1" fill="#A89070"/>
-            </svg>
-            Fiks Kitchen
+          <a href="#hero" class="nav-logo nav-logo-footer">
+            <img src="images/fiks-kitchen-logo.png" alt="Fiks Kitchen — African Catering Company" class="logo-img" width="160" height="160">
           </a>
           <p class="footer-tagline">The Fiks Touch — African Flavour, World-Class Catering.</p>
         </div>
