@@ -1,0 +1,963 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Fiks Kitchen — Premium African catering for weddings, graduations, parties, and corporate events in Pretoria, South Africa.">
+  <title>Fiks Kitchen | African Flavour, World-Class Catering</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;1,400&family=Lato:wght@400;600;700&family=Playfair+Display:wght@700;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- ========== NAVIGATION ========== -->
+  <nav class="nav" aria-label="Main navigation">
+    <div class="nav-inner">
+      <a href="#hero" class="nav-logo">
+        <svg viewBox="0 0 32 32" aria-hidden="true">
+          <defs>
+            <linearGradient id="potGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+              <stop offset="0%" stop-color="#D4A017"/>
+              <stop offset="100%" stop-color="#F2C94C"/>
+            </linearGradient>
+          </defs>
+          <ellipse cx="16" cy="26" rx="12" ry="3" fill="#8B6914" opacity="0.4"/>
+          <path d="M6 14 Q6 8 16 6 Q26 8 26 14 L24 22 Q16 26 8 22 Z" fill="url(#potGrad)"/>
+          <rect x="14" y="2" width="4" height="6" rx="1" fill="#A89070"/>
+          <path d="M10 16 Q16 12 22 16" stroke="#8B1A1A" stroke-width="1.5" fill="none" opacity="0.6"/>
+          <circle cx="12" cy="18" r="1.5" fill="#8B1A1A"/>
+          <circle cx="16" cy="17" r="1.5" fill="#2D5016"/>
+          <circle cx="20" cy="18" r="1.5" fill="#D4A017"/>
+        </svg>
+        Fiks Kitchen
+      </a>
+      <button class="nav-toggle" aria-label="Toggle menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="nav-links">
+        <li><a href="#hero">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#menu">Menu</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#gallery">Gallery</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <main>
+    <!-- ========== HERO ========== -->
+    <section id="hero" class="hero">
+      <div class="container hero-inner">
+        <div class="hero-content reveal">
+          <p class="hero-eyebrow">EST. IN LOVE &amp; SPICE</p>
+          <h1 class="hero-title">Food That Tells<br>Your Story.</h1>
+          <p class="hero-subtitle">From ilobolo feasts to graduation celebrations — Fiks Kitchen brings African flavour to every table.</p>
+          <div class="hero-ctas">
+            <a href="#contact" class="btn btn-primary">Book Your Event</a>
+            <a href="#menu" class="btn btn-secondary">See Our Menu</a>
+          </div>
+        </div>
+        <div class="hero-visual reveal">
+          <div class="hero-glow"></div>
+          <svg viewBox="0 0 500 400" aria-label="African feast table illustration">
+            <defs>
+              <linearGradient id="woodGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+                <stop offset="0%" stop-color="#5C4033"/><stop offset="100%" stop-color="#3E2723"/>
+              </linearGradient>
+              <pattern id="shweshwe" x="0" y="0" width="20" height="20" patternUnits="userSpaceOnUse">
+                <rect width="20" height="20" fill="#1A237E"/>
+                <circle cx="10" cy="10" r="4" fill="#fff" opacity="0.3"/>
+                <circle cx="0" cy="0" r="3" fill="#D4A017" opacity="0.4"/>
+                <circle cx="20" cy="20" r="3" fill="#D4A017" opacity="0.4"/>
+                <path d="M0 10 L20 10 M10 0 L10 20" stroke="#fff" stroke-width="0.5" opacity="0.2"/>
+              </pattern>
+              <radialGradient id="warmLight" cx="50%" cy="30%" r="60%">
+                <stop offset="0%" stop-color="#F2C94C" stop-opacity="0.3"/>
+                <stop offset="100%" stop-color="#0D0A06" stop-opacity="0"/>
+              </radialGradient>
+              <linearGradient id="stewGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+                <stop offset="0%" stop-color="#8B1A1A"/><stop offset="100%" stop-color="#5C0F0F"/>
+              </linearGradient>
+            </defs>
+            <rect width="500" height="400" fill="url(#warmLight)"/>
+            <!-- Table -->
+            <rect x="30" y="280" width="440" height="18" rx="3" fill="url(#woodGrad)"/>
+            <rect x="50" y="250" width="400" height="35" fill="url(#shweshwe)" opacity="0.85"/>
+            <!-- Pot of stew -->
+            <ellipse cx="250" cy="230" rx="55" ry="8" fill="#2A1A0A" opacity="0.5"/>
+            <path d="M200 230 Q200 170 250 160 Q300 170 300 230 L290 240 Q250 250 210 240 Z" fill="#3E2723"/>
+            <path d="M205 225 Q205 175 250 168 Q295 175 295 225 L285 235 Q250 242 215 235 Z" fill="url(#stewGrad)"/>
+            <ellipse cx="250" cy="175" rx="42" ry="10" fill="#A0522D"/>
+            <rect x="245" y="148" width="10" height="18" rx="2" fill="#A89070"/>
+            <!-- Steam -->
+            <path class="steam-1" d="M235 155 Q230 130 235 115 Q240 130 235 155" fill="none" stroke="#F5EDD6" stroke-width="3" opacity="0.4"/>
+            <path class="steam-2" d="M250 150 Q245 125 250 108 Q255 125 250 150" fill="none" stroke="#F5EDD6" stroke-width="4" opacity="0.5"/>
+            <path class="steam-3" d="M265 155 Q270 128 265 112 Q260 128 265 155" fill="none" stroke="#F5EDD6" stroke-width="3" opacity="0.4"/>
+            <!-- Pap plate -->
+            <ellipse cx="130" cy="245" rx="35" ry="8" fill="#2A1A0A" opacity="0.4"/>
+            <ellipse cx="130" cy="240" rx="32" ry="10" fill="#E8D5A3"/>
+            <ellipse cx="130" cy="237" rx="28" ry="8" fill="#F5EDD6"/>
+            <!-- Braai meat -->
+            <ellipse cx="370" cy="245" rx="35" ry="8" fill="#2A1A0A" opacity="0.4"/>
+            <rect x="345" y="230" width="50" height="12" rx="3" fill="#6B3A2A"/>
+            <rect x="348" y="228" width="18" height="8" rx="2" fill="#8B4513"/>
+            <rect x="368" y="227" width="22" height="9" rx="2" fill="#A0522D"/>
+            <!-- Chakalaka bowl -->
+            <ellipse cx="180" cy="248" rx="22" ry="6" fill="#2A1A0A" opacity="0.4"/>
+            <ellipse cx="180" cy="243" rx="20" ry="7" fill="#D4A017"/>
+            <circle cx="175" cy="241" r="3" fill="#E74C3C"/>
+            <circle cx="183" cy="240" r="2.5" fill="#F39C12"/>
+            <circle cx="188" cy="243" r="2" fill="#2D5016"/>
+            <!-- Roasted chicken -->
+            <ellipse cx="320" cy="248" rx="28" ry="7" fill="#2A1A0A" opacity="0.4"/>
+            <ellipse cx="320" cy="242" rx="25" ry="12" fill="#C4956A"/>
+            <ellipse cx="315" cy="238" rx="8" ry="6" fill="#D4A574"/>
+            <path d="M305 240 Q300 235 298 230" stroke="#C4956A" stroke-width="3" fill="none"/>
+            <!-- Candles -->
+            <rect x="90" y="215" width="5" height="25" fill="#F5EDD6"/>
+            <ellipse class="candle-flame" cx="92.5" cy="212" rx="4" ry="6" fill="#F2C94C"/>
+            <rect x="405" y="218" width="5" height="22" fill="#F5EDD6"/>
+            <ellipse class="candle-flame" cx="407.5" cy="215" rx="4" ry="6" fill="#F2C94C"/>
+            <!-- Flowers -->
+            <circle cx="420" cy="235" r="6" fill="#8B1A1A"/>
+            <circle cx="415" cy="230" r="4" fill="#D4A017"/>
+            <circle cx="425" cy="230" r="4" fill="#2D5016"/>
+            <rect x="419" y="238" width="3" height="12" fill="#2D5016"/>
+            <circle cx="75" cy="232" r="5" fill="#D4A017"/>
+            <circle cx="70" cy="228" r="3" fill="#8B1A1A"/>
+            <rect x="73" y="235" width="2" height="10" fill="#2D5016"/>
+            <!-- Cutlery -->
+            <rect x="155" y="255" width="2" height="18" fill="#A89070"/>
+            <rect x="160" y="255" width="2" height="18" fill="#A89070"/>
+            <rect x="340" y="255" width="2" height="18" fill="#A89070"/>
+            <!-- Decorative elements -->
+            <circle cx="250" cy="195" r="3" fill="#F2C94C" opacity="0.6"/>
+            <circle cx="240" cy="190" r="2" fill="#F2C94C" opacity="0.4"/>
+            <circle cx="260" cy="192" r="2" fill="#F2C94C" opacity="0.4"/>
+          </svg>
+        </div>
+      </div>
+      <div class="kente-divider"></div>
+    </section>
+
+    <!-- ========== ABOUT ========== -->
+    <section id="about" class="about">
+      <div class="container about-grid">
+        <div class="about-text reveal">
+          <p class="section-label">OUR STORY</p>
+          <h2 class="section-title">Cooking Is Our Love Language</h2>
+          <p><em>Fiks Kitchen was born from a deep love of African food culture — the umuntu spirit of feeding people well, feeding people together. We don't just cater events. We create memories on plates. Every dish carries the warmth of home, the boldness of tradition, and the finesse of a professional kitchen. That's the Fiks Touch.</em></p>
+          <div class="about-badges">
+            <div class="badge"><span class="badge-icon">🔥</span><span class="badge-text">Authentic African Flavours</span></div>
+            <div class="badge"><span class="badge-icon">👑</span><span class="badge-text">Premium Presentation</span></div>
+            <div class="badge"><span class="badge-icon">❤️</span><span class="badge-text">Made With Ubuntu Spirit</span></div>
+          </div>
+        </div>
+        <div class="about-visual reveal">
+          <svg viewBox="0 0 400 450" aria-label="African chef illustration">
+            <defs>
+              <linearGradient id="skinGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+                <stop offset="0%" stop-color="#6B4423"/><stop offset="100%" stop-color="#4A2F15"/>
+              </linearGradient>
+              <linearGradient id="apronGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+                <stop offset="0%" stop-color="#F5EDD6"/><stop offset="100%" stop-color="#D4C4A0"/>
+              </linearGradient>
+              <radialGradient id="kitchenGlow" cx="50%" cy="60%" r="50%">
+                <stop offset="0%" stop-color="#D4A017" stop-opacity="0.2"/>
+                <stop offset="100%" stop-color="#1A1208" stop-opacity="0"/>
+              </radialGradient>
+            </defs>
+            <rect width="400" height="450" fill="#1A1208"/>
+            <rect width="400" height="450" fill="url(#kitchenGlow)"/>
+            <!-- Kitchen background -->
+            <rect x="20" y="30" width="80" height="120" rx="4" fill="#2A1F12" stroke="#D4A017" stroke-width="1" opacity="0.5"/>
+            <rect x="30" y="45" width="25" height="35" rx="2" fill="#3E2723"/>
+            <rect x="60" y="45" width="25" height="35" rx="2" fill="#3E2723"/>
+            <rect x="30" y="90" width="25" height="35" rx="2" fill="#4A3728"/>
+            <rect x="60" y="90" width="25" height="35" rx="2" fill="#4A3728"/>
+            <!-- Shelf -->
+            <rect x="300" y="80" width="80" height="8" fill="#5C4033"/>
+            <ellipse cx="320" cy="72" rx="12" ry="15" fill="#8B1A1A" opacity="0.7"/>
+            <rect x="340" y="60" width="15" height="22" rx="2" fill="#D4A017" opacity="0.6"/>
+            <rect x="360" y="58" width="12" height="24" rx="2" fill="#2D5016" opacity="0.6"/>
+            <!-- Chef body -->
+            <ellipse cx="200" cy="400" rx="80" ry="15" fill="#0D0A06" opacity="0.5"/>
+            <path d="M155 280 Q155 220 200 210 Q245 220 245 280 L240 380 Q200 390 160 380 Z" fill="url(#apronGrad)"/>
+            <path d="M170 280 L200 295 L230 280" stroke="#D4A017" stroke-width="2" fill="none"/>
+            <!-- Arms -->
+            <path d="M155 260 Q130 280 120 310 Q125 320 140 315" fill="url(#skinGrad)"/>
+            <path d="M245 260 Q270 280 280 300 Q275 310 260 305" fill="url(#skinGrad)"/>
+            <!-- Head -->
+            <ellipse cx="200" cy="195" rx="45" ry="50" fill="url(#skinGrad)"/>
+            <!-- Hair -->
+            <path d="M158 175 Q155 140 200 130 Q245 140 242 175 Q240 160 200 155 Q160 160 158 175" fill="#1A0A00"/>
+            <path d="M165 170 Q200 145 235 170" fill="#1A0A00"/>
+            <!-- Headwrap -->
+            <path d="M160 165 Q200 140 240 165 Q245 175 240 185 Q200 195 160 185 Q155 175 160 165" fill="#8B1A1A"/>
+            <path d="M170 175 Q200 160 230 175" stroke="#D4A017" stroke-width="2" fill="none"/>
+            <!-- Face features -->
+            <ellipse cx="185" cy="195" rx="4" ry="3" fill="#2A1A0A"/>
+            <ellipse cx="215" cy="195" rx="4" ry="3" fill="#2A1A0A"/>
+            <path d="M190 215 Q200 225 210 215" stroke="#3E2723" stroke-width="2" fill="none"/>
+            <!-- Pot being stirred -->
+            <ellipse cx="130" cy="330" rx="35" ry="8" fill="#2A1A0A" opacity="0.5"/>
+            <path d="M100 330 Q100 290 130 285 Q160 290 160 330 L155 340 Q130 345 105 340 Z" fill="#3E2723"/>
+            <ellipse cx="130" cy="295" rx="28" ry="8" fill="#8B1A1A"/>
+            <rect x="125" y="275" width="10" height="15" rx="1" fill="#A89070"/>
+            <!-- Wooden spoon in hand -->
+            <rect x="115" y="290" width="4" height="40" rx="1" fill="#8B6914" transform="rotate(-20 117 310)"/>
+            <!-- Floating ingredients -->
+            <g class="float-1">
+              <path d="M310 150 Q315 140 320 150 Q315 160 310 150" fill="#E74C3C"/>
+              <path d="M312 155 L318 155" stroke="#2D5016" stroke-width="1"/>
+            </g>
+            <g class="float-2">
+              <ellipse cx="80" cy="200" rx="15" ry="8" fill="#2D5016" opacity="0.8"/>
+              <path d="M70 198 Q80 190 90 198" stroke="#1A5010" stroke-width="1" fill="none"/>
+            </g>
+            <g class="float-3">
+              <rect x="330" y="220" width="14" height="20" rx="3" fill="#D4A017" opacity="0.7"/>
+              <rect x="332" y="215" width="10" height="6" rx="1" fill="#A89070"/>
+            </g>
+            <!-- Steam from pot -->
+            <path class="steam-1" d="M120 280 Q115 260 120 245" fill="none" stroke="#F5EDD6" stroke-width="2" opacity="0.3"/>
+            <path class="steam-2" d="M130 278 Q125 258 130 242" fill="none" stroke="#F5EDD6" stroke-width="2.5" opacity="0.4"/>
+            <path class="steam-3" d="M140 280 Q145 260 140 245" fill="none" stroke="#F5EDD6" stroke-width="2" opacity="0.3"/>
+          </svg>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== SERVICES ========== -->
+    <section id="services" class="services">
+      <div class="container">
+        <div class="services-header reveal">
+          <p class="section-label">WHAT WE CATER FOR</p>
+          <h2 class="section-title">Events Worthy of the Fiks Touch</h2>
+          <p class="section-subtitle">From intimate gatherings to grand celebrations — we bring African warmth to every occasion.</p>
+        </div>
+        <div class="services-grid">
+          <!-- Wedding Card -->
+          <article class="service-card reveal">
+            <div class="kente-strip"></div>
+            <div class="service-card-visual">
+              <svg viewBox="0 0 400 200" aria-hidden="true">
+                <defs>
+                  <linearGradient id="sunsetGrad" x1="0%" y1="100%" x2="0%" y2="0%">
+                    <stop offset="0%" stop-color="#1A1208"/><stop offset="100%" stop-color="#8B4513"/>
+                  </linearGradient>
+                </defs>
+                <rect width="400" height="200" fill="url(#sunsetGrad)"/>
+                <rect x="0" y="150" width="400" height="50" fill="#D4A017" opacity="0.3"/>
+                <!-- Table -->
+                <rect x="50" y="130" width="300" height="8" fill="#5C4033"/>
+                <rect x="60" y="120" width="280" height="12" fill="#8B1A1A" opacity="0.6"/>
+                <!-- Cake tiers -->
+                <rect x="170" y="85" width="60" height="15" rx="2" fill="#F5EDD6"/>
+                <rect x="175" y="70" width="50" height="15" rx="2" fill="#F5EDD6"/>
+                <rect x="180" y="58" width="40" height="12" rx="2" fill="#F5EDD6"/>
+                <circle cx="200" cy="55" r="5" fill="#D4A017"/>
+                <!-- Couple silhouettes -->
+                <ellipse cx="120" cy="105" rx="12" ry="18" fill="#2A1A0A"/>
+                <path d="M108 105 Q120 85 132 105" fill="#8B1A1A"/>
+                <ellipse cx="280" cy="105" rx="12" ry="18" fill="#2A1A0A"/>
+                <path d="M268 105 Q280 82 292 105" fill="#D4A017"/>
+                <!-- Cowrie shells -->
+                <ellipse cx="80" cy="125" rx="6" ry="4" fill="#F5EDD6" opacity="0.8"/>
+                <ellipse cx="320" cy="125" rx="6" ry="4" fill="#F5EDD6" opacity="0.8"/>
+                <ellipse cx="100" cy="128" rx="5" ry="3" fill="#F5EDD6" opacity="0.6"/>
+                <!-- Candles -->
+                <rect x="140" y="108" width="3" height="12" fill="#F5EDD6"/>
+                <ellipse cx="141.5" cy="106" rx="2" ry="3" fill="#F2C94C"/>
+                <rect x="260" y="108" width="3" height="12" fill="#F5EDD6"/>
+                <ellipse cx="261.5" cy="106" rx="2" ry="3" fill="#F2C94C"/>
+                <!-- Kente runner -->
+                <rect x="60" y="118" width="280" height="4" fill="#D4A017"/>
+                <rect x="60" y="122" width="280" height="2" fill="#8B1A1A"/>
+                <rect x="60" y="124" width="280" height="2" fill="#2D5016"/>
+              </svg>
+            </div>
+            <div class="service-card-body">
+              <h3>Weddings &amp; Ilobolo Feasts</h3>
+              <p>From traditional lobola ceremonies to white weddings, we serve feasts worthy of your union. Full-course African menus, bridal party catering, and dessert tables included.</p>
+              <a href="#contact" class="btn btn-quote">Get a Quote</a>
+            </div>
+          </article>
+
+          <!-- Graduation Card -->
+          <article class="service-card reveal">
+            <div class="kente-strip"></div>
+            <div class="service-card-visual">
+              <svg viewBox="0 0 400 200" aria-hidden="true">
+                <defs>
+                  <linearGradient id="gradSky" x1="0%" y1="100%" x2="0%" y2="0%">
+                    <stop offset="0%" stop-color="#1A1208"/><stop offset="50%" stop-color="#8B4513"/><stop offset="100%" stop-color="#D4A017"/>
+                  </linearGradient>
+                </defs>
+                <rect width="400" height="200" fill="url(#gradSky)"/>
+                <!-- Confetti -->
+                <rect x="50" y="30" width="6" height="6" fill="#D4A017" transform="rotate(45 53 33)"/>
+                <rect x="150" y="50" width="5" height="5" fill="#8B1A1A" transform="rotate(30 152 52)"/>
+                <rect x="280" y="25" width="6" height="6" fill="#2D5016" transform="rotate(60 283 28)"/>
+                <rect x="350" y="60" width="5" height="5" fill="#F2C94C" transform="rotate(20 352 62)"/>
+                <circle cx="200" cy="40" r="3" fill="#D4A017"/>
+                <circle cx="320" cy="45" r="2" fill="#8B1A1A"/>
+                <!-- Mortarboard -->
+                <rect x="170" y="55" width="60" height="8" fill="#1A1208"/>
+                <polygon points="200,35 140,58 260,58" fill="#1A1208"/>
+                <line x1="260" y1="58" x2="275" y2="45" stroke="#F5EDD6" stroke-width="1"/>
+                <circle cx="275" cy="44" r="4" fill="#D4A017"/>
+                <!-- Plate under hat -->
+                <ellipse cx="200" cy="130" rx="50" ry="10" fill="#E8D5A3"/>
+                <ellipse cx="200" cy="125" rx="45" ry="8" fill="#F5EDD6"/>
+                <!-- Food on plate -->
+                <circle cx="185" cy="122" r="8" fill="#8B1A1A" opacity="0.7"/>
+                <circle cx="210" cy="120" r="6" fill="#2D5016" opacity="0.7"/>
+                <!-- Champagne glasses -->
+                <path d="M100 140 L95 160 L105 160 Z" fill="none" stroke="#F5EDD6" stroke-width="1.5"/>
+                <line x1="100" y1="160" x2="100" y2="170" stroke="#F5EDD6" stroke-width="1.5"/>
+                <ellipse cx="100" cy="138" rx="8" ry="3" fill="#F2C94C" opacity="0.5"/>
+                <path d="M300 140 L295 160 L305 160 Z" fill="none" stroke="#F5EDD6" stroke-width="1.5"/>
+                <line x1="300" y1="160" x2="300" y2="170" stroke="#F5EDD6" stroke-width="1.5"/>
+                <ellipse cx="300" cy="138" rx="8" ry="3" fill="#F2C94C" opacity="0.5"/>
+              </svg>
+            </div>
+            <div class="service-card-body">
+              <h3>Graduations</h3>
+              <p>You studied hard — now feast harder. Graduation buffets and seated dinners that honour your achievement in style.</p>
+              <a href="#contact" class="btn btn-quote">Get a Quote</a>
+            </div>
+          </article>
+
+          <!-- Parties Card -->
+          <article class="service-card reveal">
+            <div class="kente-strip"></div>
+            <div class="service-card-visual">
+              <svg viewBox="0 0 400 200" aria-hidden="true">
+                <rect width="400" height="200" fill="#0D0A06"/>
+                <!-- Night sky -->
+                <circle cx="350" cy="30" r="15" fill="#F2C94C" opacity="0.3"/>
+                <!-- String lights -->
+                <path d="M20 40 Q200 60 380 40" stroke="#A89070" stroke-width="1" fill="none"/>
+                <circle cx="60" cy="48" r="4" fill="#F2C94C" class="candle-flame"/>
+                <circle cx="120" cy="52" r="4" fill="#D4A017" class="candle-flame"/>
+                <circle cx="200" cy="55" r="4" fill="#F2C94C" class="candle-flame"/>
+                <circle cx="280" cy="52" r="4" fill="#D4A017" class="candle-flame"/>
+                <circle cx="340" cy="48" r="4" fill="#F2C94C" class="candle-flame"/>
+                <!-- Food table -->
+                <rect x="80" y="120" width="240" height="8" fill="#5C4033"/>
+                <rect x="90" y="110" width="220" height="12" fill="#8B6914" opacity="0.5"/>
+                <!-- Braai -->
+                <rect x="280" y="100" width="60" height="30" rx="3" fill="#3E2723"/>
+                <rect x="285" y="105" width="50" height="4" fill="#FF4500" opacity="0.6" class="braai-glow"/>
+                <rect x="290" y="112" width="20" height="6" rx="2" fill="#6B3A2A"/>
+                <rect x="315" y="111" width="18" height="7" rx="2" fill="#8B4513"/>
+                <!-- Smoke -->
+                <path class="steam-1" d="M310 100 Q305 80 310 65" fill="none" stroke="#A89070" stroke-width="2" opacity="0.3"/>
+                <path class="steam-2" d="M320 98 Q325 78 320 60" fill="none" stroke="#A89070" stroke-width="2" opacity="0.4"/>
+                <!-- Dancing silhouettes -->
+                <ellipse cx="60" cy="160" rx="8" ry="14" fill="#2A1A0A"/>
+                <path d="M52 160 Q60 140 68 155" fill="#2A1A0A"/>
+                <ellipse cx="100" cy="165" rx="7" ry="12" fill="#2A1A0A"/>
+                <path d="M93 165 Q100 148 107 160" fill="#2A1A0A"/>
+                <ellipse cx="340" cy="162" rx="8" ry="13" fill="#2A1A0A"/>
+                <path d="M332 162 Q340 142 348 158" fill="#2A1A0A"/>
+                <ellipse cx="370" cy="158" rx="7" ry="12" fill="#2A1A0A"/>
+              </svg>
+            </div>
+            <div class="service-card-body">
+              <h3>Parties &amp; Celebrations</h3>
+              <p>Birthday bashes, family reunions, baby showers. Any celebration deserves a spread that keeps people talking.</p>
+              <a href="#contact" class="btn btn-quote">Get a Quote</a>
+            </div>
+          </article>
+
+          <!-- Corporate Card -->
+          <article class="service-card reveal">
+            <div class="kente-strip"></div>
+            <div class="service-card-visual">
+              <svg viewBox="0 0 400 200" aria-hidden="true">
+                <rect width="400" height="200" fill="#1A1208"/>
+                <!-- Long conference table -->
+                <rect x="30" y="100" width="340" height="12" fill="#5C4033"/>
+                <rect x="40" y="90" width="320" height="12" fill="#F5EDD6" opacity="0.9"/>
+                <!-- African fabric runner -->
+                <rect x="40" y="92" width="320" height="4" fill="#D4A017"/>
+                <rect x="40" y="96" width="320" height="2" fill="#8B1A1A"/>
+                <rect x="40" y="98" width="320" height="2" fill="#2D5016"/>
+                <!-- Place settings -->
+                <ellipse cx="80" cy="88" rx="12" ry="4" fill="#E8E8E8"/>
+                <rect x="76" y="105" width="2" height="12" fill="#A89070"/>
+                <rect x="80" y="105" width="2" height="12" fill="#A89070"/>
+                <ellipse cx="140" cy="88" rx="12" ry="4" fill="#E8E8E8"/>
+                <rect x="136" y="105" width="2" height="12" fill="#A89070"/>
+                <ellipse cx="200" cy="88" rx="12" ry="4" fill="#E8E8E8"/>
+                <rect x="196" y="105" width="2" height="12" fill="#A89070"/>
+                <ellipse cx="260" cy="88" rx="12" ry="4" fill="#E8E8E8"/>
+                <rect x="256" y="105" width="2" height="12" fill="#A89070"/>
+                <ellipse cx="320" cy="88" rx="12" ry="4" fill="#E8E8E8"/>
+                <rect x="316" y="105" width="2" height="12" fill="#A89070"/>
+                <!-- Corporate stationery -->
+                <rect x="70" y="82" width="20" height="14" rx="1" fill="#F5EDD6"/>
+                <rect x="190" y="82" width="20" height="14" rx="1" fill="#F5EDD6"/>
+                <rect x="310" y="82" width="20" height="14" rx="1" fill="#F5EDD6"/>
+                <line x1="73" y1="86" x2="87" y2="86" stroke="#A89070" stroke-width="0.5"/>
+                <line x1="73" y1="89" x2="87" y2="89" stroke="#A89070" stroke-width="0.5"/>
+                <!-- Centerpiece -->
+                <rect x="185" y="75" width="30" height="8" rx="2" fill="#2D5016" opacity="0.6"/>
+                <circle cx="200" cy="72" r="6" fill="#D4A017"/>
+                <!-- Chairs -->
+                <rect x="70" y="115" width="20" height="25" rx="3" fill="#3E2723" opacity="0.5"/>
+                <rect x="190" y="115" width="20" height="25" rx="3" fill="#3E2723" opacity="0.5"/>
+                <rect x="310" y="115" width="20" height="25" rx="3" fill="#3E2723" opacity="0.5"/>
+              </svg>
+            </div>
+            <div class="service-card-body">
+              <h3>Corporate &amp; Community Events</h3>
+              <p>Team lunches, year-end functions, community events. Fiks Kitchen brings professionalism and African warmth to every corporate table.</p>
+              <a href="#contact" class="btn btn-quote">Get a Quote</a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== MENU ========== -->
+    <section id="menu" class="menu">
+      <div class="container">
+        <div class="menu-header reveal">
+          <p class="section-label">SIGNATURE MENU</p>
+          <h2 class="section-title">Flavours That Tell Our Story</h2>
+          <p class="section-subtitle">Bold, authentic African dishes crafted with love and the finest ingredients.</p>
+        </div>
+        <div class="menu-tabs reveal">
+          <button class="menu-tab active" data-tab="mains">Mains</button>
+          <button class="menu-tab" data-tab="sides">Sides</button>
+          <button class="menu-tab" data-tab="desserts">Desserts</button>
+          <button class="menu-tab" data-tab="drinks">Drinks</button>
+        </div>
+
+        <!-- Mains Panel -->
+        <div id="panel-mains" class="menu-panel active">
+          <article class="dish-card reveal">
+            <span class="dish-badge">Signature</span>
+            <svg class="dish-icon" viewBox="0 0 48 48" aria-hidden="true"><ellipse cx="24" cy="30" rx="18" ry="6" fill="#3E2723"/><ellipse cx="24" cy="26" rx="16" ry="8" fill="#8B1A1A"/><path d="M18 22 Q24 18 30 22" stroke="#A0522D" stroke-width="2" fill="none"/></svg>
+            <h3 class="dish-name">Slow-cooked Oxtail Stew</h3>
+            <p class="dish-desc">Tender oxtail braised for hours in a rich, spiced gravy with root vegetables. Served with pap and gravy — a true South African classic.</p>
+          </article>
+          <article class="dish-card reveal">
+            <svg class="dish-icon" viewBox="0 0 48 48" aria-hidden="true"><ellipse cx="24" cy="32" rx="14" ry="5" fill="#C4956A"/><ellipse cx="24" cy="28" rx="12" ry="10" fill="#D4A574"/><path d="M16 26 Q24 20 32 26" stroke="#8B6914" stroke-width="1.5" fill="none"/></svg>
+            <h3 class="dish-name">Umleqwa (Free-range Chicken)</h3>
+            <p class="dish-desc">Traditional spiced village chicken, slow-cooked until fall-off-the-bone tender. Seasoned with African herbs and served with its own rich broth.</p>
+          </article>
+          <article class="dish-card reveal">
+            <span class="dish-badge">Signature</span>
+            <svg class="dish-icon" viewBox="0 0 48 48" aria-hidden="true"><rect x="12" y="24" width="24" height="8" rx="2" fill="#6B3A2A"/><rect x="14" y="22" width="10" height="6" rx="1" fill="#8B4513"/><rect x="26" y="21" width="8" height="7" rx="1" fill="#A0522D"/></svg>
+            <h3 class="dish-name">Braai Lamb Chops</h3>
+            <p class="dish-desc">Thick-cut lamb chops marinated in our signature African herb rub, flame-grilled to perfection with a smoky char and juicy centre.</p>
+          </article>
+          <article class="dish-card reveal">
+            <svg class="dish-icon" viewBox="0 0 48 48" aria-hidden="true"><ellipse cx="24" cy="28" rx="16" ry="10" fill="#5C4033"/><path d="M14 28 Q24 22 34 28 Q24 34 14 28" fill="#6B4423"/></svg>
+            <h3 class="dish-name">Beef Mogodu</h3>
+            <p class="dish-desc">Tripe slow-cooked to perfection in a savoury stew with onions, peppers, and traditional spices. A beloved township delicacy done right.</p>
+          </article>
+          <article class="dish-card reveal">
+            <svg class="dish-icon" viewBox="0 0 48 48" aria-hidden="true"><ellipse cx="24" cy="30" rx="16" ry="8" fill="#C4956A"/><ellipse cx="24" cy="26" rx="14" ry="10" fill="#D4A574"/><circle cx="20" cy="24" r="2" fill="#E74C3C"/><circle cx="28" cy="25" r="1.5" fill="#E74C3C"/></svg>
+            <h3 class="dish-name">Peri-Peri Whole Grilled Chicken</h3>
+            <p class="dish-desc">Whole chicken marinated in fiery peri-peri sauce and grilled over open flame. Crispy skin, juicy meat, and a kick that keeps you coming back.</p>
+          </article>
+          <article class="dish-card reveal">
+            <svg class="dish-icon" viewBox="0 0 48 48" aria-hidden="true"><rect x="14" y="20" width="20" height="14" rx="2" fill="#D4A017"/><rect x="12" y="34" width="24" height="6" rx="1" fill="#F2C94C"/></svg>
+            <h3 class="dish-name">Bobotie with Yellow Rice</h3>
+            <p class="dish-desc">The Cape Malay classic — spiced minced meat baked with an egg topping, served alongside fragrant yellow rice with raisins and turmeric.</p>
+          </article>
+        </div>
+
+        <!-- Sides Panel -->
+        <div id="panel-sides" class="menu-panel">
+          <article class="dish-card reveal">
+            <span class="dish-badge">Signature</span>
+            <svg class="dish-icon" viewBox="0 0 48 48" aria-hidden="true"><ellipse cx="24" cy="30" rx="16" ry="6" fill="#F5EDD6"/><ellipse cx="24" cy="22" rx="14" ry="8" fill="#E74C3C"/><circle cx="20" cy="20" r="2" fill="#F39C12"/><circle cx="28" cy="21" r="2" fill="#2D5016"/></svg>
+            <h3 class="dish-name">Chakalaka &amp; Pap</h3>
+            <p class="dish-desc">The OG combo — spicy vegetable relish loaded with carrots, beans, and peppers, paired with smooth maize pap. The heartbeat of every feast.</p>
+          </article>
+          <article class="dish-card reveal">
+            <svg class="dish-icon" viewBox="0 0 48 48" aria-hidden="true"><ellipse cx="24" cy="28" rx="16" ry="10" fill="#F5EDD6"/><circle cx="18" cy="26" r="4" fill="#8B6914"/><circle cx="30" cy="27" r="3" fill="#6B4423"/></svg>
+            <h3 class="dish-name">Umngqusho (Samp &amp; Beans)</h3>
+            <p class="dish-desc">Hearty samp and sugar beans simmered together until creamy and comforting. A Xhosa staple that nourishes body and soul.</p>
+          </article>
+          <article class="dish-card reveal">
+            <svg class="dish-icon" viewBox="0 0 48 48" aria-hidden="true"><ellipse cx="24" cy="28" rx="16" ry="10" fill="#2D5016"/><path d="M16 26 Q24 18 32 26" stroke="#1A5010" stroke-width="2" fill="none"/></svg>
+            <h3 class="dish-name">Spinach &amp; Groundnut Stew (Morogo)</h3>
+            <p class="dish-desc">Wild spinach wilted in a creamy groundnut sauce with onions and tomatoes. Earthy, rich, and deeply African.</p>
+          </article>
+          <article class="dish-card reveal">
+            <svg class="dish-icon" viewBox="0 0 48 48" aria-hidden="true"><ellipse cx="24" cy="28" rx="12" ry="8" fill="#E67E22"/><path d="M18 24 Q24 20 30 24" stroke="#D35400" stroke-width="1" fill="none"/></svg>
+            <h3 class="dish-name">Roasted Sweet Potato with Cinnamon Butter</h3>
+            <p class="dish-desc">Caramelised sweet potato wedges roasted until golden, finished with a swirl of cinnamon-infused butter. Sweet, warm, irresistible.</p>
+          </article>
+          <article class="dish-card reveal">
+            <svg class="dish-icon" viewBox="0 0 48 48" aria-hidden="true"><ellipse cx="24" cy="28" rx="14" ry="10" fill="#F5EDD6"/><circle cx="24" cy="26" r="6" fill="#E8D5A3"/></svg>
+            <h3 class="dish-name">Dombolo (Steamed Bread)</h3>
+            <p class="dish-desc">Fluffy steamed bread dumplings that soak up every drop of gravy. Soft, pillowy, and the perfect companion to any stew.</p>
+          </article>
+          <article class="dish-card reveal">
+            <svg class="dish-icon" viewBox="0 0 48 48" aria-hidden="true"><ellipse cx="24" cy="28" rx="10" ry="6" fill="#F1C40F"/><ellipse cx="24" cy="26" rx="8" ry="5" fill="#F39C12"/></svg>
+            <h3 class="dish-name">Fried Plantain</h3>
+            <p class="dish-desc">Ripe plantain sliced and fried until caramelised on the edges. A sweet, golden side that bridges West and Southern African flavours.</p>
+          </article>
+        </div>
+
+        <!-- Desserts Panel -->
+        <div id="panel-desserts" class="menu-panel">
+          <article class="dish-card reveal">
+            <span class="dish-badge">Signature</span>
+            <svg class="dish-icon" viewBox="0 0 48 48" aria-hidden="true"><rect x="14" y="22" width="20" height="14" rx="2" fill="#C4956A"/><rect x="16" y="18" width="16" height="6" rx="1" fill="#F5EDD6"/></svg>
+            <h3 class="dish-name">Malva Pudding with Custard</h3>
+            <p class="dish-desc">Warm, sticky sponge pudding drenched in buttery caramel sauce, served with velvety custard. The dessert that ends every great South African meal.</p>
+          </article>
+          <article class="dish-card reveal">
+            <svg class="dish-icon" viewBox="0 0 48 48" aria-hidden="true"><path d="M16 30 Q24 14 32 30 Q24 38 16 30" fill="#F39C12"/><path d="M18 28 Q24 18 30 28" stroke="#E67E22" stroke-width="1" fill="none"/></svg>
+            <h3 class="dish-name">Koeksisters</h3>
+            <p class="dish-desc">Twisted, syrup-drenched Afrikaner pastries — crispy on the outside, sticky-sweet on the inside. Pure indulgence in every bite.</p>
+          </article>
+          <article class="dish-card reveal">
+            <svg class="dish-icon" viewBox="0 0 48 48" aria-hidden="true"><rect x="12" y="24" width="24" height="12" rx="2" fill="#5C4033"/><rect x="14" y="20" width="20" height="6" rx="1" fill="#8B6914"/><rect x="16" y="16" width="16" height="6" rx="1" fill="#D4A017"/></svg>
+            <h3 class="dish-name">Peppermint Crisp Tart</h3>
+            <p class="dish-desc">Layers of Tennis biscuits, caramel treat, and whipped cream studded with Peppermint Crisp shards. A South African braai legend.</p>
+          </article>
+          <article class="dish-card reveal">
+            <span class="dish-badge">Signature</span>
+            <svg class="dish-icon" viewBox="0 0 48 48" aria-hidden="true"><rect x="14" y="20" width="20" height="16" rx="2" fill="#8B6914"/><rect x="16" y="22" width="16" height="4" fill="#D4A017"/><ellipse cx="24" cy="32" rx="10" ry="3" fill="#6B4423"/></svg>
+            <h3 class="dish-name">Umqombothi Caramel Cake</h3>
+            <p class="dish-desc">Our fusion original — traditional sorghum beer notes infused into a moist caramel layer cake. Bold, unique, unmistakably Fiks.</p>
+          </article>
+          <article class="dish-card reveal">
+            <svg class="dish-icon" viewBox="0 0 48 48" aria-hidden="true"><circle cx="24" cy="26" r="10" fill="#F5EDD6"/><circle cx="24" cy="24" r="6" fill="#E8D5A3"/><circle cx="24" cy="22" r="3" fill="#E74C3C"/></svg>
+            <h3 class="dish-name">Fried Fat Cakes (Magwinya) with Jam</h3>
+            <p class="dish-desc">Golden, puffy vetkoek fried fresh and served with sweet strawberry jam. A township favourite that never goes out of style.</p>
+          </article>
+        </div>
+
+        <!-- Drinks Panel -->
+        <div id="panel-drinks" class="menu-panel">
+          <article class="dish-card reveal">
+            <svg class="dish-icon" viewBox="0 0 48 48" aria-hidden="true"><path d="M18 38 L18 18 L30 18 L30 38 Z" fill="none" stroke="#E74C3C" stroke-width="2"/><ellipse cx="24" cy="18" rx="6" ry="2" fill="#E74C3C" opacity="0.6"/></svg>
+            <h3 class="dish-name">Homemade Hibiscus (Zobo) Juice</h3>
+            <p class="dish-desc">Deep crimson hibiscus brew sweetened with ginger and pineapple. Refreshing, antioxidant-rich, and beautifully African.</p>
+          </article>
+          <article class="dish-card reveal">
+            <svg class="dish-icon" viewBox="0 0 48 48" aria-hidden="true"><rect x="18" y="14" width="12" height="24" rx="2" fill="#F5EDD6"/><ellipse cx="24" cy="14" rx="6" ry="2" fill="#D4A017" opacity="0.5"/></svg>
+            <h3 class="dish-name">Ginger Beer (Traditional)</h3>
+            <p class="dish-desc">Fiery homemade ginger beer brewed the old-fashioned way. Fizzy, spicy, and the perfect palate cleanser between courses.</p>
+          </article>
+          <article class="dish-card reveal">
+            <svg class="dish-icon" viewBox="0 0 48 48" aria-hidden="true"><path d="M16 36 L16 16 Q24 12 32 16 L32 36 Z" fill="#8B4513" opacity="0.6"/><rect x="20" y="10" width="8" height="6" rx="1" fill="#2D5016"/></svg>
+            <h3 class="dish-name">Rooibos Iced Tea</h3>
+            <p class="dish-desc">South Africa's native rooibos steeped and chilled, served over ice with a sprig of mint. Naturally caffeine-free and elegantly refreshing.</p>
+          </article>
+          <article class="dish-card reveal">
+            <svg class="dish-icon" viewBox="0 0 48 48" aria-hidden="true"><path d="M16 36 L16 20 Q24 14 32 20 L32 36 Z" fill="#E74C3C" opacity="0.5"/><circle cx="20" cy="26" r="2" fill="#F39C12"/><circle cx="28" cy="28" r="2" fill="#2D5016"/><path d="M22 12 Q24 8 26 12" stroke="#2D5016" stroke-width="1" fill="none"/></svg>
+            <h3 class="dish-name">Fruit Punch with Mint</h3>
+            <p class="dish-desc">A vibrant blend of tropical fruits, citrus, and fresh mint. Colourful, celebratory, and perfect for any event toast.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== GALLERY ========== -->
+    <section id="gallery" class="gallery">
+      <div class="container">
+        <div class="gallery-header reveal">
+          <p class="section-label">THE FIKS EXPERIENCE</p>
+          <h2 class="section-title">Every Event. Every Plate. Perfection.</h2>
+        </div>
+        <div class="gallery-grid">
+          <div class="gallery-item reveal">
+            <svg viewBox="0 0 300 400" preserveAspectRatio="xMidYMid slice">
+              <rect width="300" height="400" fill="#1A1208"/>
+              <rect x="20" y="280" width="260" height="10" fill="#5C4033"/>
+              <rect x="30" y="268" width="240" height="14" fill="#F5EDD6"/>
+              <rect x="120" y="230" width="60" height="40" fill="#2D5016" opacity="0.5"/>
+              <circle cx="150" cy="220" r="20" fill="#8B1A1A"/>
+              <circle cx="140" cy="215" r="8" fill="#D4A017"/>
+              <circle cx="160" cy="215" r="8" fill="#F5EDD6"/>
+              <rect x="60" y="250" width="4" height="20" fill="#D4A017"/>
+              <ellipse cx="62" cy="248" rx="5" ry="8" fill="#F2C94C" class="candle-flame"/>
+              <rect x="236" y="250" width="4" height="20" fill="#D4A017"/>
+              <ellipse cx="238" cy="248" rx="5" ry="8" fill="#F2C94C" class="candle-flame"/>
+              <rect x="80" y="255" width="140" height="3" fill="#D4A017"/>
+            </svg>
+            <div class="gallery-overlay"><span>Fiks Touch ✦</span></div>
+          </div>
+          <div class="gallery-item reveal">
+            <svg viewBox="0 0 300 220" preserveAspectRatio="xMidYMid slice">
+              <rect width="300" height="220" fill="#2A1A0A"/>
+              <defs><radialGradient id="stoveGlow"><stop offset="0%" stop-color="#FF4500" stop-opacity="0.4"/><stop offset="100%" stop-color="#0D0A06"/></radialGradient></defs>
+              <rect width="300" height="220" fill="url(#stoveGlow)"/>
+              <rect x="80" y="160" width="140" height="8" fill="#3E2723"/>
+              <ellipse cx="150" cy="130" rx="50" ry="10" fill="#2A1A0A"/>
+              <path d="M105 130 Q105 80 150 70 Q195 80 195 130 L185 145 Q150 155 115 145 Z" fill="#3E2723"/>
+              <ellipse cx="150" cy="85" rx="38" ry="10" fill="#8B1A1A"/>
+              <path class="steam-1" d="M135 75 Q130 50 135 35" fill="none" stroke="#F5EDD6" stroke-width="3" opacity="0.4"/>
+              <path class="steam-2" d="M150 70 Q145 45 150 28" fill="none" stroke="#F5EDD6" stroke-width="4" opacity="0.5"/>
+              <path class="steam-3" d="M165 75 Q170 50 165 35" fill="none" stroke="#F5EDD6" stroke-width="3" opacity="0.4"/>
+            </svg>
+            <div class="gallery-overlay"><span>Fiks Touch ✦</span></div>
+          </div>
+          <div class="gallery-item reveal">
+            <svg viewBox="0 0 300 220" preserveAspectRatio="xMidYMid slice">
+              <defs><linearGradient id="sunsetBraai" x1="0" y1="1" x2="0" y2="0"><stop offset="0%" stop-color="#1A1208"/><stop offset="100%" stop-color="#D4A017"/></linearGradient></defs>
+              <rect width="300" height="220" fill="url(#sunsetBraai)"/>
+              <rect x="100" y="140" width="100" height="40" rx="4" fill="#3E2723"/>
+              <rect x="110" y="150" width="80" height="6" fill="#FF4500" class="braai-glow"/>
+              <rect x="115" y="158" width="25" height="8" rx="2" fill="#6B3A2A"/>
+              <rect x="145" y="156" width="30" height="10" rx="2" fill="#8B4513"/>
+              <path class="steam-1" d="M140 140 Q135 120 140 100" fill="none" stroke="#A89070" stroke-width="2" opacity="0.4"/>
+              <path class="steam-2" d="M160 138 Q165 115 160 95" fill="none" stroke="#A89070" stroke-width="2" opacity="0.5"/>
+              <circle cx="250" cy="40" r="20" fill="#F2C94C" opacity="0.4"/>
+            </svg>
+            <div class="gallery-overlay"><span>Fiks Touch ✦</span></div>
+          </div>
+          <div class="gallery-item reveal">
+            <svg viewBox="0 0 300 400" preserveAspectRatio="xMidYMid slice">
+              <rect width="300" height="400" fill="#0D0A06"/>
+              <ellipse cx="150" cy="220" rx="100" ry="25" fill="#1A1A1A"/>
+              <ellipse cx="150" cy="215" rx="95" ry="22" fill="#2A2A2A"/>
+              <ellipse cx="150" cy="200" rx="35" ry="20" fill="#F5EDD6"/>
+              <ellipse cx="100" cy="210" rx="30" ry="15" fill="#8B1A1A"/>
+              <ellipse cx="200" cy="208" rx="25" ry="12" fill="#E74C3C"/>
+              <circle cx="195" cy="205" r="4" fill="#F39C12"/>
+              <circle cx="205" cy="207" r="3" fill="#2D5016"/>
+            </svg>
+            <div class="gallery-overlay"><span>Fiks Touch ✦</span></div>
+          </div>
+          <div class="gallery-item reveal">
+            <svg viewBox="0 0 300 220" preserveAspectRatio="xMidYMid slice">
+              <rect width="300" height="220" fill="#1A1208"/>
+              <rect x="30" y="130" width="240" height="8" fill="#5C4033"/>
+              <rect x="40" y="118" width="220" height="14" fill="#F5EDD6" opacity="0.8"/>
+              <rect x="120" y="90" width="60" height="6" fill="#1A1208"/>
+              <polygon points="150,70 110,92 190,92" fill="#1A1208"/>
+              <circle cx="50" cy="125" r="12" fill="#8B1A1A" opacity="0.7"/>
+              <circle cx="100" cy="122" r="10" fill="#2D5016" opacity="0.7"/>
+              <circle cx="200" cy="123" r="11" fill="#D4A017" opacity="0.7"/>
+              <circle cx="250" cy="125" r="10" fill="#E74C3C" opacity="0.7"/>
+            </svg>
+            <div class="gallery-overlay"><span>Fiks Touch ✦</span></div>
+          </div>
+          <div class="gallery-item reveal">
+            <svg viewBox="0 0 300 220" preserveAspectRatio="xMidYMid slice">
+              <rect width="300" height="220" fill="#1A1208"/>
+              <rect x="40" y="100" width="220" height="12" fill="#F5EDD6"/>
+              <rect x="40" y="102" width="220" height="4" fill="#D4A017"/>
+              <rect x="40" y="106" width="220" height="2" fill="#8B1A1A"/>
+              <rect x="40" y="108" width="220" height="2" fill="#2D5016"/>
+              <ellipse cx="80" cy="95" rx="14" ry="5" fill="#E8E8E8"/>
+              <ellipse cx="150" cy="95" rx="14" ry="5" fill="#E8E8E8"/>
+              <ellipse cx="220" cy="95" rx="14" ry="5" fill="#E8E8E8"/>
+              <rect x="100" y="85" width="3" height="12" fill="#F5EDD6"/>
+              <ellipse cx="101.5" cy="83" rx="2" ry="3" fill="#F2C94C" class="candle-flame"/>
+            </svg>
+            <div class="gallery-overlay"><span>Fiks Touch ✦</span></div>
+          </div>
+          <div class="gallery-item reveal">
+            <svg viewBox="0 0 300 220" preserveAspectRatio="xMidYMid slice">
+              <rect width="300" height="220" fill="#2A1A0A"/>
+              <defs><radialGradient id="ladleGlow"><stop offset="0%" stop-color="#D4A017" stop-opacity="0.2"/><stop offset="100%" stop-color="#0D0A06"/></radialGradient></defs>
+              <rect width="300" height="220" fill="url(#ladleGlow)"/>
+              <ellipse cx="150" cy="180" rx="40" ry="10" fill="#3E2723"/>
+              <ellipse cx="150" cy="175" rx="35" ry="8" fill="#8B1A1A"/>
+              <path d="M120 120 Q100 140 110 160" fill="#6B4423"/>
+              <path d="M180 120 Q200 140 190 160" fill="#6B4423"/>
+              <ellipse cx="150" cy="110" rx="30" ry="35" fill="#6B4423"/>
+              <path d="M145 90 Q150 130 155 165" stroke="#A89070" stroke-width="4" fill="none"/>
+              <ellipse cx="158" cy="165" rx="10" ry="4" fill="#8B1A1A"/>
+            </svg>
+            <div class="gallery-overlay"><span>Fiks Touch ✦</span></div>
+          </div>
+          <div class="gallery-item reveal">
+            <svg viewBox="0 0 300 220" preserveAspectRatio="xMidYMid slice">
+              <rect width="300" height="220" fill="#0D0A06"/>
+              <path d="M20 30 Q150 50 280 30" stroke="#A89070" stroke-width="1" fill="none"/>
+              <circle cx="50" cy="38" r="3" fill="#F2C94C" class="candle-flame"/>
+              <circle cx="120" cy="42" r="3" fill="#D4A017" class="candle-flame"/>
+              <circle cx="200" cy="42" r="3" fill="#F2C94C" class="candle-flame"/>
+              <ellipse cx="80" cy="150" rx="40" ry="8" fill="#5C4033"/>
+              <ellipse cx="220" cy="150" rx="40" ry="8" fill="#5C4033"/>
+              <ellipse cx="60" cy="170" rx="6" ry="10" fill="#2A1A0A"/>
+              <ellipse cx="200" cy="172" rx="6" ry="10" fill="#2A1A0A"/>
+            </svg>
+            <div class="gallery-overlay"><span>Fiks Touch ✦</span></div>
+          </div>
+          <div class="gallery-item reveal">
+            <svg viewBox="0 0 300 220" preserveAspectRatio="xMidYMid slice">
+              <rect width="300" height="220" fill="#1A1208"/>
+              <rect x="30" y="140" width="240" height="8" fill="#5C4033"/>
+              <rect x="40" y="128" width="220" height="14" fill="#F5EDD6" opacity="0.9"/>
+              <rect x="60" y="115" width="30" height="15" rx="2" fill="#C4956A"/>
+              <path d="M110 130 Q120 110 130 130" fill="#F39C12"/>
+              <rect x="155" y="112" width="25" height="18" rx="2" fill="#5C4033"/>
+              <rect x="195" y="110" width="25" height="18" rx="2" fill="#5C4033"/>
+            <div class="gallery-overlay"><span>Fiks Touch ✦</span></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== TESTIMONIALS ========== -->
+    <section id="testimonials" class="testimonials">
+      <div class="container">
+        <div class="testimonials-header reveal">
+          <p class="section-label">WHAT CLIENTS SAY</p>
+          <h2 class="section-title">The Fiks Touch Speaks for Itself</h2>
+        </div>
+        <div class="testimonials-wrapper reveal">
+          <div class="testimonials-track">
+            <article class="testimonial-card">
+              <div class="kente-strip" style="margin:-2rem -2rem 1.5rem;border-radius:8px 8px 0 0;"></div>
+              <p class="testimonial-quote">"</p>
+              <p class="testimonial-text">Fiks Kitchen catered my daughter's lobola and the food was everything. The oxtail alone had guests fighting for seconds. 10/10.</p>
+              <div class="testimonial-stars">
+                <svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+                <svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+                <svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+                <svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+                <svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+              </div>
+              <p class="testimonial-author">— Nomsa M., Pretoria</p>
+            </article>
+            <article class="testimonial-card">
+              <div class="kente-strip" style="margin:-2rem -2rem 1.5rem;border-radius:8px 8px 0 0;"></div>
+              <p class="testimonial-quote">"</p>
+              <p class="testimonial-text">Best graduation catering I've ever had. They set up beautifully, food was hot, and service was impeccable.</p>
+              <div class="testimonial-stars">
+                <svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+                <svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+                <svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+                <svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+                <svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+              </div>
+              <p class="testimonial-author">— Thabo K., Johannesburg</p>
+            </article>
+            <article class="testimonial-card">
+              <div class="kente-strip" style="margin:-2rem -2rem 1.5rem;border-radius:8px 8px 0 0;"></div>
+              <p class="testimonial-quote">"</p>
+              <p class="testimonial-text">We used Fiks for our company year-end function. The feedback from staff was overwhelming. Will use again every year.</p>
+              <div class="testimonial-stars">
+                <svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+                <svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+                <svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+                <svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+                <svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+              </div>
+              <p class="testimonial-author">— Refilwe S., HR Manager</p>
+            </article>
+            <article class="testimonial-card">
+              <div class="kente-strip" style="margin:-2rem -2rem 1.5rem;border-radius:8px 8px 0 0;"></div>
+              <p class="testimonial-quote">"</p>
+              <p class="testimonial-text">The braai lamb chops at my son's 21st were unreal. People are still asking me who catered!</p>
+              <div class="testimonial-stars">
+                <svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+                <svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+                <svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+                <svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+                <svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+              </div>
+              <p class="testimonial-author">— Patience N., Soweto</p>
+            </article>
+            <article class="testimonial-card">
+              <div class="kente-strip" style="margin:-2rem -2rem 1.5rem;border-radius:8px 8px 0 0;"></div>
+              <p class="testimonial-quote">"</p>
+              <p class="testimonial-text">Fiks Touch is real! The presentation alone made the wedding feel luxury. Food tasted even better.</p>
+              <div class="testimonial-stars">
+                <svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+                <svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+                <svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+                <svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+                <svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+              </div>
+              <p class="testimonial-author">— Lungelo &amp; Zanele, Durban</p>
+            </article>
+            <article class="testimonial-card">
+              <div class="kente-strip" style="margin:-2rem -2rem 1.5rem;border-radius:8px 8px 0 0;"></div>
+              <p class="testimonial-quote">"</p>
+              <p class="testimonial-text">Malva pudding was so good I nearly cried. Authentic, generous, and professional.</p>
+              <div class="testimonial-stars">
+                <svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+                <svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+                <svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+                <svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+                <svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+              </div>
+              <p class="testimonial-author">— Dikeledi M., Polokwane</p>
+            </article>
+          </div>
+          <div class="testimonial-nav">
+            <button class="testimonial-prev" aria-label="Previous testimonial">←</button>
+            <button class="testimonial-next" aria-label="Next testimonial">→</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== CONTACT ========== -->
+    <section id="contact" class="contact">
+      <div class="container">
+        <div class="reveal">
+          <p class="section-label">BOOK YOUR EVENT</p>
+          <h2 class="section-title">Let's Create Something Delicious</h2>
+        </div>
+        <div class="contact-grid">
+          <form id="contact-form" class="contact-form reveal" novalidate>
+            <div class="form-group">
+              <label for="name">Full Name *</label>
+              <input type="text" id="name" name="name" required placeholder="Your full name">
+            </div>
+            <div class="form-group">
+              <label for="phone">Phone Number *</label>
+              <input type="tel" id="phone" name="phone" required placeholder="+27 83 558 7660">
+            </div>
+            <div class="form-group">
+              <label for="email">Email Address *</label>
+              <input type="email" id="email" name="email" required placeholder="you@email.com">
+            </div>
+            <div class="form-group">
+              <label for="event-type">Event Type *</label>
+              <select id="event-type" name="event-type" required>
+                <option value="">Select event type</option>
+                <option value="Wedding">Wedding</option>
+                <option value="Graduation">Graduation</option>
+                <option value="Birthday Party">Birthday Party</option>
+                <option value="Corporate">Corporate</option>
+                <option value="Other">Other</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label for="event-date">Event Date</label>
+              <input type="date" id="event-date" name="event-date">
+            </div>
+            <div class="form-group">
+              <label for="guests">Estimated Guest Count</label>
+              <input type="number" id="guests" name="guests" min="1" placeholder="e.g. 150">
+            </div>
+            <div class="form-group">
+              <label for="message">Message / Special Requirements *</label>
+              <textarea id="message" name="message" required placeholder="Tell us about your event, dietary requirements, and any special requests..."></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Send Enquiry via WhatsApp →</button>
+          </form>
+
+          <div class="contact-info reveal">
+            <div class="contact-info-item">
+              <div class="contact-info-icon">📍</div>
+              <div class="contact-info-text">
+                <h4>Location</h4>
+                <p>Pretoria, Gauteng, South Africa</p>
+              </div>
+            </div>
+            <div class="contact-info-item">
+              <div class="contact-info-icon">📞</div>
+              <div class="contact-info-text">
+                <h4>Phone</h4>
+                <p>+27 83 558 7660</p>
+              </div>
+            </div>
+            <div class="contact-info-item">
+              <div class="contact-info-icon">📧</div>
+              <div class="contact-info-text">
+                <h4>Email</h4>
+                <p>info@fikskitchen.co.za</p>
+              </div>
+            </div>
+            <a href="https://wa.me/27835587660?text=Hi%20Fiks%20Kitchen!%20I'd%20like%20to%20enquire%20about%20catering." class="btn btn-whatsapp" target="_blank" rel="noopener noreferrer">
+              Chat With Us on WhatsApp
+            </a>
+            <div class="contact-hours">
+              <p><strong>Operating Hours:</strong> Mon–Sat, 8am–6pm</p>
+            </div>
+            <div class="contact-map">
+              <svg viewBox="0 0 320 180" aria-label="Pretoria skyline illustration">
+                <rect width="320" height="180" fill="#1A1208"/>
+                <rect x="0" y="140" width="320" height="40" fill="#2D5016" opacity="0.3"/>
+                <rect x="20" y="80" width="30" height="60" fill="#2A1F12"/>
+                <rect x="55" y="60" width="25" height="80" fill="#3E2723"/>
+                <rect x="85" y="70" width="35" height="70" fill="#2A1F12"/>
+                <rect x="125" y="40" width="40" height="100" fill="#3E2723"/>
+                <rect x="170" y="55" width="30" height="85" fill="#2A1F12"/>
+                <rect x="205" y="75" width="35" height="65" fill="#3E2723"/>
+                <rect x="245" y="50" width="28" height="90" fill="#2A1F12"/>
+                <rect x="278" y="65" width="32" height="75" fill="#3E2723"/>
+                <rect x="130" y="90" width="60" height="50" fill="#5C4033"/>
+                <ellipse cx="160" cy="90" rx="30" ry="15" fill="#D4A017" opacity="0.6"/>
+                <path d="M160 30 C145 30 135 42 135 55 C135 72 160 95 160 95 C160 95 185 72 185 55 C185 42 175 30 160 30 Z" fill="#D4A017"/>
+                <circle cx="160" cy="52" r="8" fill="#1A1208"/>
+                <circle cx="280" cy="25" r="2" fill="#F2C94C" opacity="0.6"/>
+              </svg>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="kente-divider"></div>
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <a href="#hero" class="nav-logo">
+            <svg viewBox="0 0 32 32" aria-hidden="true">
+              <ellipse cx="16" cy="26" rx="12" ry="3" fill="#8B6914" opacity="0.4"/>
+              <path d="M6 14 Q6 8 16 6 Q26 8 26 14 L24 22 Q16 26 8 22 Z" fill="#D4A017"/>
+              <rect x="14" y="2" width="4" height="6" rx="1" fill="#A89070"/>
+            </svg>
+            Fiks Kitchen
+          </a>
+          <p class="footer-tagline">The Fiks Touch — African Flavour, World-Class Catering.</p>
+        </div>
+        <div class="footer-links">
+          <h4>Quick Links</h4>
+          <ul>
+            <li><a href="#hero">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#menu">Menu</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#gallery">Gallery</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+        <div class="footer-social">
+          <h4>Follow Us</h4>
+          <div class="social-icons">
+            <a href="#" aria-label="Facebook">
+              <svg viewBox="0 0 24 24"><path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"/></svg>
+            </a>
+            <a href="#" aria-label="Instagram">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="2" width="20" height="20" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1.5" fill="currentColor"/></svg>
+            </a>
+            <a href="#" aria-label="TikTok">
+              <svg viewBox="0 0 24 24"><path d="M9 12a4 4 0 104 4V4a5 5 0 005 5"/></svg>
+            </a>
+            <a href="https://wa.me/27835587660" aria-label="WhatsApp" target="_blank" rel="noopener noreferrer">
+              <svg viewBox="0 0 24 24"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/><path d="M12 0C5.373 0 0 5.373 0 12c0 2.625.846 5.059 2.284 7.034L.789 23.492a.5.5 0 00.614.614l4.458-1.495A11.945 11.945 0 0012 24c6.627 0 12-5.373 12-12S18.627 0 12 0zm0 22c-2.319 0-4.489-.667-6.314-1.818l-.452-.268-2.651.891.891-2.651-.268-.452A9.956 9.956 0 012 12C2 6.477 6.477 2 12 2s10 4.477 10 10-4.477 10-10 10z"/></svg>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2025 Fiks Kitchen. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <a href="https://wa.me/27835587660" class="whatsapp-float" target="_blank" rel="noopener noreferrer" aria-label="Chat on WhatsApp">
+    <svg viewBox="0 0 24 24"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/><path d="M12 0C5.373 0 0 5.373 0 12c0 2.625.846 5.059 2.284 7.034L.789 23.492a.5.5 0 00.614.614l4.458-1.495A11.945 11.945 0 0012 24c6.627 0 12-5.373 12-12S18.627 0 12 0zm0 22c-2.319 0-4.489-.667-6.314-1.818l-.452-.268-2.651.891.891-2.651-.268-.452A9.956 9.956 0 012 12C2 6.477 6.477 2 12 2s10 4.477 10 10-4.477 10-10 10z"/></svg>
+  </a>
+
+  <script src="script.js"></script>
+</body>
+</html>
